@@ -1,0 +1,2 @@
+ServerEvents.tags('item', event => {
+})
