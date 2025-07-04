@@ -1,0 +1,46 @@
+{
+    "type": "amethyst_imbuement:imbuing",
+    "imbueA": {
+      "item": "kubejs:unpowered_silver_ingot"
+    },
+    "imbueB": {
+      "item": "kubejs:unpowered_silver_ingot"
+    },
+    "imbueC": {
+      "item": "kubejs:unpowered_silver_ingot"
+    },
+    "imbueD": {
+      "item": "kubejs:unpowered_silver_ingot"
+    },
+    "craftA": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "craftB": {
+      "item": "bewitchment:salt"
+    },
+    "craftC": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "craftD": {
+      "item": "bewitchment:salt"
+    },
+    "craftE": {
+      "item": "minecraft:experience_bottle"
+    },
+    "craftF": {
+      "item": "bewitchment:salt"
+    },
+    "craftG": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "craftH": {
+      "item": "bewitchment:salt"
+    },
+    "craftI": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "title": "Powered Silver",
+    "cost": 1,
+    "resultA": "bewitchment:silver_ingot",
+    "countA": 6
+  }

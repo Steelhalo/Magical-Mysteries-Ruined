@@ -1,0 +1,46 @@
+{
+    "type": "amethyst_imbuement:imbuing",
+    "imbueA": {
+      "item": "amethyst_imbuement:garnet"
+    },
+    "imbueB": {
+      "item": "amethyst_imbuement:knowledge_powder"
+    },
+    "imbueC": {
+      "item": "amethyst_imbuement:garnet"
+    },
+    "imbueD": {
+      "item": "amethyst_imbuement:garnet"
+    },
+    "craftA": {
+      "item": "minecraft:air"
+    },
+    "craftB": {
+      "item": "amethyst_imbuement:brilliant_diamond"
+    },
+    "craftC": {
+      "item": "minecraft:air"
+    },
+    "craftD": {
+      "item": "amethyst_imbuement:moonstone"
+    },
+    "craftE": {
+      "item": "amethyst_imbuement:iridescent_orb"
+    },
+    "craftF": {
+      "item": "amethyst_imbuement:moonstone"
+    },
+    "craftG": {
+      "item": "minecraft:air"
+    },
+    "craftH": {
+      "item": "amethyst_imbuement:brilliant_diamond"
+    },
+    "craftI": {
+      "item": "minecraft:air"
+    },
+    "title": "Lustrous Sphere",
+    "cost": 23,
+    "resultA": "amethyst_imbuement:lustrous_sphere",
+    "countA": 1
+  }

@@ -1,0 +1,46 @@
+{
+  "type": "amethyst_imbuement:imbuing",
+  "imbueA": {
+	"item": "bosses_of_mass_destruction:void_thorn"
+  },
+  "imbueB": {
+	"item": "bosses_of_mass_destruction:ancient_anima"
+  },
+  "imbueC": {
+	"item": "bosses_of_mass_destruction:blazing_eye"
+  },
+  "imbueD": {
+	"item": "bosses_of_mass_destruction:obsidian_heart"
+  },
+  "craftA": {
+	"item": "amethyst_imbuement:ametrine"
+  },
+  "craftB": {
+	"item": "minecraft:dragon_egg"
+  },
+  "craftC": {
+	"item": "amethyst_imbuement:ametrine"
+  },
+  "craftD": {
+	"item": "amethyst_imbuement:brilliant_diamond"
+  },
+  "craftE": {
+	"item": "minecraft:nether_star"
+  },
+  "craftF": {
+	"item": "amethyst_imbuement:brilliant_diamond"
+  },
+  "craftG": {
+	"item": "amethyst_imbuement:ametrine"
+  },
+  "craftH": {
+	"item": "amethyst_imbuement:tigers_eye"
+  },
+  "craftI": {
+	"item": "amethyst_imbuement:ametrine"
+  },
+  "title": "Celestine",
+  "cost": 49,
+  "resultA": "amethyst_imbuement:celestine",
+  "countA": 1
+}
