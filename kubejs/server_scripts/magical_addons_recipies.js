@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
         ]
     )
 
-        //Decent Whip Colours
+    //Decent Whip Colours
     event.shapeless(
         Item.of('kubejs:decent_whip_red', 1),
         [
@@ -237,6 +237,119 @@ ServerEvents.recipes(event => {
         Item.of('kubejs:decent_whip_brown', 1),
         [
             '#magical_addons:decent_whip',
+            'minecraft:brown_dye'
+        ]
+    )
+    //Ancient Whip Colours
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_red', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:red_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_orange', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:orange_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_yellow', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:yellow_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_green', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:green_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_lime', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:lime_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_blue', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:blue_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_cyan', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:cyan_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_light_blue', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:light_blue_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_pink', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:pink_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_magenta', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:magenta_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_purple', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:purple_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_white', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:white_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_grey', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:grey_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_light_grey', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:light_grey_dye'
+        ]
+    )
+    event.shapeless(
+        Item.of('kubejs:ancient_whip_black', 1),
+        [
+            '#magical_addons:ancient_whip',
+            'minecraft:black_dye'
+        ]
+    )
+        event.shapeless(
+        Item.of('kubejs:ancient_whip_brown', 1),
+        [
+            '#magical_addons:ancient_whip',
             'minecraft:brown_dye'
         ]
     )

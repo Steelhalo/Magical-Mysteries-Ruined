@@ -5,7 +5,7 @@ StartupEvents.registry('item', event => {
     event.create('rustic_knife', 'sword').tier('iron').maxDamage(65).texture('magical_addons:item/rustic_knife').attackDamageBaseline(1).speedBaseline(0.25),
 
     //Rustic Whips
-    event.create('rustic_whip_red', 'sword').tier('wood').maxDamage(41).texture('magical_addons:item/rustic_whip_red').attackDamageBaseline(5).speedBaseline(-3.5).displayName('Red Rustic Whip').tag('magical_addons:whip'),
+    event.create('rustic_whip_red', 'sword').tier('wood').maxDamage(41).texture('magical_addons:item/rustic_whip_red').attackDamageBaseline(5).speedBaseline(-3.5).displayName('Red Rustic Whip').tag('magical_addons:rustic_whip'),
     event.create('rustic_whip_orange', 'sword').tier('wood').maxDamage(41).texture('magical_addons:item/rustic_whip_orange').attackDamageBaseline(5).speedBaseline(-3.5).displayName('Orange Rustic Whip').tag('magical_addons:rustic_whip'),
     event.create('rustic_whip_yellow', 'sword').tier('wood').maxDamage(41).texture('magical_addons:item/rustic_whip_yellow').attackDamageBaseline(5).speedBaseline(-3.5).displayName('Yellow Rustic Whip').tag('magical_addons:rustic_whip'),
     event.create('rustic_whip_green', 'sword').tier('wood').maxDamage(41).texture('magical_addons:item/rustic_whip_green').attackDamageBaseline(5).speedBaseline(-3.5).displayName('Green Rustic Whip').tag('magical_addons:rustic_whip'),
