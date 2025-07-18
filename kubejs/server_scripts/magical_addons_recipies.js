@@ -278,6 +278,30 @@ ServerEvents.recipes(event => {
         }
     )
     event.shaped(
+        Item.of('kubejs:decent_whip', 1),
+        [
+            'AAA',
+            'A B',
+            'A  '
+        ],
+        {
+            A: 'farmersdelight:rope',
+            B: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('kubejs:ancient_whip', 1),
+        [
+            'AAA',
+            'A B',
+            'A  '
+        ],
+        {
+            A: 'farmersdelight:rope',
+            B: 'amethyst_imbument:beryl_copper'
+        }
+    )
+    event.shaped(
         Item.of('kubejs:rustic_knife', 1),
         [
             '   ',
@@ -287,6 +311,30 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:stick',
             B: 'minecraft:flint'
+        }
+    )
+    event.shaped(
+        Item.of('kubejs:decent_knife', 1),
+        [
+            '   ',
+            'B  ',
+            'A  '
+        ],
+        {
+            A: 'minecraft:stick',
+            B: 'minecraft:iron_ingot'
+        }
+    )
+    event.shaped(
+        Item.of('kubejs:ancient_knife', 1),
+        [
+            '   ',
+            'B  ',
+            'A  '
+        ],
+        {
+            A: 'minecraft:stick',
+            B: 'amethyst_imbument:beryl_copper'
         }
     )
 })
