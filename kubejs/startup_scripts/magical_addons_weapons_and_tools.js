@@ -1,8 +1,8 @@
 //Weapons
 StartupEvents.registry('item', event => {
     event.create('rustic_knife', 'sword').tier('wood').maxDamage(34).texture('magical_addons:item/rustic_knife').attackDamageBaseline(0).speedBaseline(0),
-    event.create('rustic_knife', 'sword').tier('stone').maxDamage(58).texture('magical_addons:item/rustic_knife').attackDamageBaseline(0.5).speedBaseline(0),
-    event.create('rustic_knife', 'sword').tier('iron').maxDamage(79).texture('magical_addons:item/rustic_knife').attackDamageBaseline(1).speedBaseline(0.25),
+    event.create('decent_knife', 'sword').tier('stone').maxDamage(58).texture('magical_addons:item/decent_knife').attackDamageBaseline(0.5).speedBaseline(0),
+    event.create('ancient_knife', 'sword').tier('iron').maxDamage(79).texture('magical_addons:item/ancient_knife').attackDamageBaseline(1).speedBaseline(0.25),
 
     //Rustic Whips
     event.create('rustic_whip_red', 'sword').tier('wood').maxDamage(41).texture('magical_addons:rustic_whip/rustic_whip_red').attackDamageBaseline(5).speedBaseline(-3.5).displayName('Red Rustic Whip').tag('magical_addons:rustic_whip'),
