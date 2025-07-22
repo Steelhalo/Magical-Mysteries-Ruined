@@ -240,6 +240,7 @@ ServerEvents.recipes(event => {
             'minecraft:brown_dye'
         ]
     )
+
     //Ancient Whip Colours
     event.shapeless(
         Item.of('kubejs:ancient_whip_red', 1),
@@ -399,7 +400,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'farmersdelight:rope',
-            B: 'minecraft:iron_ingot'
+            B: 'minecraft:copper_ingot'
         }
     )
     event.shaped(
@@ -411,7 +412,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'farmersdelight:rope',
-            B: 'amethyst_imbument:beryl_copper'
+            B: 'amethyst_imbument:steel_ingot'
         }
     )
     event.shaped(
