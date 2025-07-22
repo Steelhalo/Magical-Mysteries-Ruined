@@ -1,0 +1,825 @@
+{
+	autofocus_id: "02C7085D3A23688F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ingrediants"
+	group: "550DC794E0349B85"
+	hide_quest_until_deps_complete: true
+	icon: "amethyst_imbuement:malachite_figurine"
+	id: "5654FACB335A4E4E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7296B85D0A125732"
+				"3DED37452DD51A8A"
+				"730D4AA27B6AF3B5"
+				"2F0C9E095C118D4D"
+				"0E1FFEE208AC7942"
+			]
+			description: ["To get a Opal you can imbue a it, trade with a Crystal Witch or find it in a loot chest."]
+			id: "75E29EFA73BFC69E"
+			rewards: [
+				{
+					count: 3
+					id: "39C9AA8748110B56"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "655D33AA9F98CD1D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Rainbow!"
+			tasks: [{
+				id: "252E47FB134E75F8"
+				item: "amethyst_imbuement:opal"
+				type: "item"
+			}]
+			title: "Find, Trade or Make 1 Opal"
+			x: 0.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "63766B2769B7CA41"
+			tasks: [{
+				id: "259943262E25E2D3"
+				item: "amethyst_imbuement:lethal_gem"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7296B85D0A125732"
+				"3DED37452DD51A8A"
+				"31BB479A3F91BEB6"
+			]
+			id: "75193A7F3BCB4056"
+			tasks: [{
+				id: "26E589B74ED2D6D7"
+				item: "amethyst_imbuement:shimmering_fabric"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "730D4AA27B6AF3B5"
+			tasks: [{
+				id: "694C3EDF0B52B3CC"
+				item: "amethyst_imbuement:danburite"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "3DED37452DD51A8A"
+			tasks: [{
+				id: "5ACC6AE14D95E5E1"
+				item: "amethyst_imbuement:imbued_lapis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "7296B85D0A125732"
+			tasks: [{
+				id: "27D40E465C619A98"
+				item: "amethyst_imbuement:imbued_quartz"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["31BB479A3F91BEB6"]
+			id: "2F0C9E095C118D4D"
+			tasks: [{
+				id: "5C3B8BC0342C3DA0"
+				item: "amethyst_imbuement:smoky_quartz"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["31BB479A3F91BEB6"]
+			id: "0E1FFEE208AC7942"
+			tasks: [{
+				id: "2CA8E74FC983B9CC"
+				item: "amethyst_imbuement:citrine"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "0DFFCFEAD4D716AB"
+			tasks: [{
+				id: "2C4B49E8338B00A7"
+				item: "amethyst_imbuement:lustrous_sphere"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "0A8E998E008CC567"
+			tasks: [{
+				id: "2C59260305FA8A1D"
+				item: "amethyst_imbuement:golden_heart"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"28639ED25A181E3A"
+				"6190B5D36BF90D0D"
+				"37CD7B1CD036FFE0"
+			]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "71D4660F6F292223"
+			size: 1.0d
+			tasks: [{
+				id: "7EF4AA089546E790"
+				item: "amethyst_imbuement:celestine"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "59D484FE969AA6D8"
+			tasks: [{
+				id: "516E78B9321AAEFD"
+				item: "amethyst_imbuement:blazing_gem"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "3BC034CEB2C960AE"
+			tasks: [{
+				id: "6920B2F6B855CE9A"
+				item: "amethyst_imbuement:sparking_gem"
+				type: "item"
+			}]
+			x: -7.75d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"619F9415AA7DFD7E"
+				"3DED37452DD51A8A"
+				"7296B85D0A125732"
+				"0E1FFEE208AC7942"
+				"31BB479A3F91BEB6"
+			]
+			id: "3B8B11CD41ABD9F6"
+			tasks: [{
+				id: "6C24DA0B9ED01502"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_lore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"19719FEC78F46450"
+				"431ADCA509505FFC"
+			]
+			id: "0B640B00A249832D"
+			tasks: [{
+				id: "2B56028F8727EC70"
+				item: "imbued_gear:soul_powder"
+				type: "item"
+			}]
+			x: -3.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "2190881249DB6C5C"
+			tasks: [{
+				id: "11E904022ADD3D81"
+				item: "amethyst_imbuement:healers_gem"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A0045AFBC0457D5"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: true
+			id: "02531D1A9D193BE4"
+			size: 1.0d
+			tasks: [{
+				id: "190FE1FD9EA83633"
+				item: { Count: 4, id: "imbued_gear:puresteel_ingot" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2F0C9E095C118D4D"]
+			id: "3D3161FBA619543B"
+			tasks: [{
+				id: "5EA53A7165AA5AC7"
+				item: "imbued_gear:serpentine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "619F9415AA7DFD7E"
+			rewards: [
+				{
+					id: "16EB128BE43CD33B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "35953E438238AE58"
+					item: "amethyst_imbuement:gem_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B8E1B024757183B"
+				item: "amethyst_imbuement:knowledge_powder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "779998182B188009"
+			tasks: [{
+				id: "05E89E87A8CCE95A"
+				item: "amethyst_imbuement:inquisitive_gem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "75C2C8B73B75859A"
+			tasks: [{
+				id: "76087A34656A0A0C"
+				item: "amethyst_imbuement:accursed_figurine"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "775D515B2F2CDD64"
+			tasks: [{
+				id: "4AD70C99F83DC086"
+				item: "amethyst_imbuement:heartstone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6ADBD3AE57137C27"]
+			id: "319DE9F6D7D9B5F8"
+			tasks: [{
+				id: "3E930BCE5146B35B"
+				item: "amethyst_imbuement:malachite_figurine"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 8.5d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "784C6334BD0817CC"
+			tasks: [{
+				id: "0FAC1687AA88956A"
+				item: "amethyst_imbuement:glowing_fragment"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6ADBD3AE57137C27"]
+			id: "28639ED25A181E3A"
+			tasks: [{
+				id: "36D3B96854A626D3"
+				item: "amethyst_imbuement:brilliant_diamond"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "37CD7B1CD036FFE0"
+			tasks: [{
+				id: "5128037587B4202B"
+				item: "amethyst_imbuement:tigers_eye"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"784C6334BD0817CC"
+				"639F9E3CD1A8D481"
+				"33F9818074B06130"
+			]
+			id: "305612697EA72326"
+			tasks: [{
+				id: "1C67B2F097A2DB11"
+				item: "amethyst_imbuement:resonant_rod"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6ADBD3AE57137C27"]
+			id: "1B3F01847217CF6D"
+			tasks: [{
+				id: "00EB2F05E44082B8"
+				item: "amethyst_imbuement:iridescent_orb"
+				type: "item"
+			}]
+			x: -5.75d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"619F9415AA7DFD7E"
+				"7296B85D0A125732"
+				"31BB479A3F91BEB6"
+			]
+			id: "1600C3E01D710D1B"
+			rewards: [{
+				id: "1599F65290FC0A1B"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "5001650710953B1B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:gem_of_promise"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "50A90E87D8E6BF35"
+			tasks: [{
+				id: "251567BBECD138FC"
+				item: "amethyst_imbuement:brutal_gem"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0E1FFEE208AC7942"]
+			id: "22B1929F3D4B9700"
+			tasks: [{
+				id: "1262040BDC533E5F"
+				item: "amethyst_imbuement:garnet"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "19719FEC78F46450"
+			tasks: [{
+				id: "33EB8095F1B8B676"
+				item: "imbued_gear:ensouled_gem"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.75d
+		}
+		{
+			dependencies: [
+				"7296B85D0A125732"
+				"0E1FFEE208AC7942"
+			]
+			id: "6190B5D36BF90D0D"
+			tasks: [{
+				id: "5DE101C1454F8AF0"
+				item: "amethyst_imbuement:ametrine"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "1071E4C6E7E76D57"
+			size: 1.0d
+			tasks: [{
+				id: "28183F92E95D33B4"
+				item: "amethyst_imbuement:mystical_gem"
+				type: "item"
+			}]
+			x: -6.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7296B85D0A125732"]
+			id: "253E3BE4DD6EDF52"
+			tasks: [{
+				id: "62444DFF638188A3"
+				item: "amethyst_imbuement:moonstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7296B85D0A125732"
+				"0E1FFEE208AC7942"
+			]
+			id: "5F899D8DA6AFAF8A"
+			tasks: [{
+				id: "0C2E37596CB7881C"
+				item: "amethyst_imbuement:pyrite"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2B988A02759300E6"]
+			hide_dependent_lines: true
+			icon: "amethyst_imbuement:malachite_figurine"
+			id: "07A9381F74046DCB"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Ready for some complex mess?"
+			tasks: [{
+				id: "13DDE81A78687F92"
+				title: "Ok"
+				type: "checkmark"
+			}]
+			title: "What is this?"
+			x: -6.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1600C3E01D710D1B"]
+			id: "4645EAAF7D167FD6"
+			tasks: [{
+				id: "1322C2937A09AC5A"
+				item: "imbued_gear:void_gem"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4645EAAF7D167FD6"]
+			id: "4B39767954132ABA"
+			tasks: [{
+				id: "605E5FC161BDDB33"
+				item: "imbued_gear:null_powder"
+				type: "item"
+			}]
+			x: -6.25d
+			y: -6.75d
+		}
+		{
+			dependencies: [
+				"28639ED25A181E3A"
+				"7732446F374641FD"
+			]
+			id: "0A0045AFBC0457D5"
+			tasks: [{
+				id: "26935F55ED9DC31B"
+				item: "imbued_gear:pure_powder"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "31BB479A3F91BEB6"
+			tasks: [{
+				id: "006BCAA105BBA0ED"
+				item: "amethyst_imbuement:gem_dust"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"75E29EFA73BFC69E"
+				"730D4AA27B6AF3B5"
+				"784C6334BD0817CC"
+				"3DED37452DD51A8A"
+			]
+			id: "65CE19C770B45BB0"
+			tasks: [{
+				id: "1574A49FF49AEB2C"
+				item: "amethyst_imbuement:energetic_opal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "639F9E3CD1A8D481"
+			tasks: [{
+				id: "2E18A64C730EDD7F"
+				item: "amethyst_imbuement:steel_ingot"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "33F9818074B06130"
+			tasks: [{
+				id: "491B9524320BA7D9"
+				item: "amethyst_imbuement:beryl_copper_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "015722CA4B1BC321"
+			tasks: [{
+				id: "7DC1A8D54503D6E5"
+				item: "amethyst_imbuement:sardonyx"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["6ADBD3AE57137C27"]
+			id: "1F7488C495CFEAE8"
+			tasks: [{
+				id: "4A7FC305BFA8B243"
+				item: "amethyst_imbuement:glistering_key"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1C39ACA5BFBA06D6"
+				"3DED37452DD51A8A"
+			]
+			id: "44E95F168F23676B"
+			tasks: [{
+				id: "21B9974DC034316E"
+				item: "amethyst_imbuement:mana_potion"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1C39ACA5BFBA06D6"
+				"730D4AA27B6AF3B5"
+			]
+			id: "431ADCA509505FFC"
+			tasks: [{
+				id: "7F9E510AB84CD7B9"
+				item: "amethyst_imbuement:xp_bush_seed"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "1C39ACA5BFBA06D6"
+			tasks: [{
+				id: "61E8B271634FEDC1"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"44E95F168F23676B"
+				"784C6334BD0817CC"
+			]
+			id: "2266483720AE4463"
+			tasks: [{
+				id: "3BDD71670C7E0E1C"
+				item: "amethyst_imbuement:mana_regeneration_potion"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"7296B85D0A125732"
+				"0E1FFEE208AC7942"
+			]
+			id: "7732446F374641FD"
+			tasks: [{
+				id: "50ABC359536F45B8"
+				item: "amethyst_imbuement:dazzling_melon_slice"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A8E998E008CC567"]
+			id: "641F41B3E7251DBA"
+			tasks: [{
+				id: "7C273EF054A58838"
+				item: "amethyst_imbuement:crystalline_heart"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31BB479A3F91BEB6"]
+			id: "6ADBD3AE57137C27"
+			tasks: [{
+				id: "14B324F08F97454C"
+				item: "amethyst_imbuement:crystal_altar"
+				type: "item"
+			}]
+			x: -4.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "10AE455A636A507B"
+			tasks: [{
+				id: "29AE8788361AA1A3"
+				item: "amethyst_imbuement:witches_bookshelf"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.75d
+		}
+		{
+			dependencies: ["6ADBD3AE57137C27"]
+			id: "3E75AB1D771A4736"
+			tasks: [{
+				id: "57AF098F935BBF6D"
+				item: "amethyst_imbuement:glistening_ice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["2F0C9E095C118D4D"]
+			id: "5A8AE5308802EB1C"
+			tasks: [{
+				id: "4C2ACD938C3824AC"
+				item: "amethyst_imbuement:warding_candle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.75d
+		}
+		{
+			dependencies: [
+				"6892EFE1A3A98819"
+				"4B39767954132ABA"
+			]
+			id: "6759DEED33EF34BD"
+			tasks: [{
+				id: "73D521BE903F2463"
+				item: "imbued_gear:voidsteel_ingot"
+				type: "item"
+			}]
+			x: -7.25d
+			y: -7.75d
+		}
+		{
+			dependencies: ["07A9381F74046DCB"]
+			id: "6892EFE1A3A98819"
+			tasks: [{
+				id: "105970F3417B3284"
+				item: "imbued_gear:wither_bone"
+				type: "item"
+			}]
+			x: -8.75d
+			y: -7.75d
+		}
+		{
+			dependencies: [
+				"75C2C8B73B75859A"
+				"015722CA4B1BC321"
+			]
+			id: "11850C55057CFF93"
+			tasks: [{
+				id: "1A857A7871EA7F05"
+				item: "amethyst_imbuement:sardonyx_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["641F41B3E7251DBA"]
+			id: "399BA1890D3B9D17"
+			tasks: [{
+				id: "5C23AA465997FA74"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:totem_of_amethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["641F41B3E7251DBA"]
+			id: "7D4DADEC34C48538"
+			tasks: [{
+				id: "085AA55F05C801A8"
+				item: "amethyst_imbuement:crystalline_core"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ADBD3AE57137C27"]
+			id: "000D4FEB601A6953"
+			tasks: [{
+				id: "18D4D97223C395C3"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.25d
+		}
+	]
+	title: "Ingrediants"
+}

@@ -1,0 +1,42 @@
+{
+  "vanilla": {
+    "enableDesertWorkshops": true,
+    "desertWorkshopWeight": 1,
+    "enablePlainsWorkshops": true,
+    "plainsWorkshopWeight": 2,
+    "enableSavannaWorkshops": true,
+    "savannaWorkshopWeight": 2,
+    "enableSnowyWorkshops": true,
+    "snowyWorkshopWeight": 1,
+    "enableTaigaWorkshops": true,
+    "taigaWorkshopWeight": 2
+  },
+  "ctov": {
+    "enableCtovWorkshops": true,
+    "beachWorkshopWeight": 4,
+    "darkForestWorkshopWeight": 4,
+    "jungleWorkshopWeight": 4,
+    "jungleTreeWorkshopWeight": 4,
+    "mesaWorkshopWeight": 4,
+    "mesaFortifiedWorkshopWeight": 4,
+    "mountainWorkshopWeight": 4,
+    "mountainAlpineWorkshopWeight": 4,
+    "mushroomWorkshopWeight": 4,
+    "swampWorkshopWeight": 4,
+    "swampFortifiedWorkshopWeight": 4
+  },
+  "rs": {
+    "enableRsWorkshops": true,
+    "badlandsWorkshopWeight": 2,
+    "birchWorkshopWeight": 2,
+    "darkForestWorkshopWeight": 2,
+    "giantTaigaWorkshopWeight": 1,
+    "jungleWorkshopWeight": 2,
+    "mountainsWorkshopWeight": 2,
+    "mushroomsWorkshopWeight": 2,
+    "oakWorkshopWeight": 2,
+    "swampWorkshopWeight": 2,
+    "crimsonWorkshopWeight": 2,
+    "warpedWorkshopWeight": 2
+  }
+}

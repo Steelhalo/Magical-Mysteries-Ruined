@@ -1,0 +1,61 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+giveGlisteringTome = false
+sniperBowDurability = 500
+
+[manaItems]
+totemOfAmethystDurability = 360
+imbuedJewelryDurability = 120
+imbuedJewelryDamagePerAmplifier = 6
+
+[manaItems.fullManaColor]
+# Red component, 0 to 255
+r = 0
+# Green component, 0 to 255
+g = 85
+# Blue component, 0 to 255
+b = 255
+
+[manaItems.emptyManaColor]
+# Red component, 0 to 255
+r = 255
+# Green component, 0 to 255
+g = 0
+# Blue component, 0 to 255
+b = 85
+
+[scepters]
+fowlChestChance = 0.02
+fzzyChestChance = 0.002
+uniqueWitherChance = 0.01
+
+[gems]
+fireTarget = 120
+hitTarget = 60
+healTarget = 120.0
+statusesTarget = 8
+killTarget = 30
+spellXpTarget = 350
+
+[focus]
+bolsteringRange = 5.0
+
+[focus.xpPerTier]
+tierOne = 500
+tierTwo = 1500
+tierThree = 3000
+tierFour = 5000
+
+[scroll]
+
+[scroll.casts]
+tierOne = 16
+tierTwo = 24
+tierThree = 32
+
+[scroll.spellLevels]
+tierOne = 1
+tierTwo = 2
+tierThree = 3
+tierFour = 5
+tierFive = 7

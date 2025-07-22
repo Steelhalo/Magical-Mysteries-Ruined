@@ -1,0 +1,13 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enabled = true
+pvpMode = true
+manaCost = 400
+minLvl = 15
+maxLvl = 1
+castXP = 40
+
+[cooldown]
+base = 12000
+perLevel = 0
+percent = 0

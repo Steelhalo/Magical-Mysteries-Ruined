@@ -1,0 +1,245 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[armor]
+
+[armor.archon]
+enchantability = 40
+durabilityMultiplier = 11
+knockbackResistance = 0.0
+toughness = 0.0
+
+[armor.archon.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:sardonyx"
+
+[armor.archon.protectionAmounts]
+head = 1
+chest = 2
+legs = 2
+boots = 1
+
+[armor.celestial]
+enchantability = 45
+durabilityMultiplier = 99
+knockbackResistance = 0.2
+toughness = 5.0
+
+[armor.celestial.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:celestine"
+
+[armor.celestial.protectionAmounts]
+head = 6
+chest = 11
+legs = 9
+boots = 6
+
+[armor.champion]
+enchantability = 18
+durabilityMultiplier = 55
+knockbackResistance = 0.05
+toughness = 4.5
+
+[armor.champion.repairIngredient]
+type = "stack"
+value = "imbued_gear:puresteel_ingot"
+
+[armor.champion.protectionAmounts]
+head = 5
+chest = 10
+legs = 8
+boots = 5
+
+[armor.elementalist]
+enchantability = 22
+durabilityMultiplier = 33
+knockbackResistance = 0.0
+toughness = 3.0
+
+[armor.elementalist.repairIngredient]
+type = "stacks"
+value = [
+    "amethyst_imbuement:sparking_gem",
+    "amethyst_imbuement:glazing_gem",
+    "amethyst_imbuement:glistening_ice"
+]
+
+[armor.elementalist.protectionAmounts]
+head = 4
+chest = 9
+legs = 7
+boots = 4
+
+[armor.eternity]
+enchantability = 22
+durabilityMultiplier = 39
+knockbackResistance = 0.1
+toughness = 0.0
+
+[armor.eternity.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:heartstone"
+
+[armor.eternity.protectionAmounts]
+head = 4
+chest = 9
+legs = 7
+boots = 4
+
+[armor.hunter]
+enchantability = 20
+durabilityMultiplier = 19
+knockbackResistance = 0.0
+toughness = 2.0
+
+[armor.hunter.repairIngredient]
+type = "stack"
+value = "minecraft:rabbit_hide"
+
+[armor.hunter.protectionAmounts]
+head = 2
+chest = 7
+legs = 6
+boots = 2
+
+[armor.lich_king]
+enchantability = 13
+durabilityMultiplier = 15
+knockbackResistance = 0.0
+toughness = 2.0
+
+[armor.lich_king.repairIngredient]
+type = "stack"
+value = "imbued_gear:wither_bone"
+
+[armor.lich_king.protectionAmounts]
+head = 2
+chest = 7
+legs = 6
+boots = 2
+
+[armor.scholar]
+enchantability = 40
+durabilityMultiplier = 13
+knockbackResistance = 0.0
+toughness = 0.0
+
+[armor.scholar.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:book_of_lore"
+
+[armor.scholar.protectionAmounts]
+head = 2
+chest = 6
+legs = 5
+boots = 2
+
+[armor.spellblade]
+enchantability = 10
+durabilityMultiplier = 33
+knockbackResistance = 0.05
+toughness = 2.0
+
+[armor.spellblade.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:lethal_gem"
+
+[armor.spellblade.protectionAmounts]
+head = 4
+chest = 9
+legs = 7
+boots = 4
+
+[armor.void_mail]
+enchantability = 20
+durabilityMultiplier = 21
+knockbackResistance = 0.0
+toughness = 3.0
+
+[armor.void_mail.repairIngredient]
+type = "stack"
+value = "imbued_gear:void_gem"
+
+[armor.void_mail.protectionAmounts]
+head = 3
+chest = 8
+legs = 6
+boots = 3
+
+[armor.warrior]
+enchantability = 20
+durabilityMultiplier = 29
+knockbackResistance = 0.0
+toughness = 3.5
+
+[armor.warrior.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:glowing_fragment"
+
+[armor.warrior.protectionAmounts]
+head = 4
+chest = 10
+legs = 8
+boots = 4
+
+[tools]
+
+[tools.nihil]
+durability = 333
+miningSpeedMultiplier = 10.5
+attackDamage = 4.5
+miningLevel = 4
+enchantability = 35
+
+[tools.nihil.repairIngredient]
+type = "stack"
+value = "imbued_gear:voidsteel_ingot"
+
+[tools.radiant]
+durability = 1851
+miningSpeedMultiplier = 10.5
+attackDamage = 6.0
+miningLevel = 4
+enchantability = 15
+
+[tools.radiant.repairIngredient]
+type = "stack"
+value = "imbued_gear:puresteel_ingot"
+
+[tools.celestial]
+durability = 2650
+miningSpeedMultiplier = 14.5
+attackDamage = 10.0
+miningLevel = 4
+enchantability = 45
+
+[tools.celestial.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:celestine"
+
+[tools.scepterTier4]
+attackSpeed = -3.0
+healCooldown = 50
+durability = 3550
+miningSpeedMultiplier = 1.0
+attackDamage = 0.0
+miningLevel = 1
+enchantability = 25
+
+[tools.scepterTier4.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:celestine"
+
+[tools.crackling]
+attackSpeed = -2.9
+healCooldown = 200
+durability = 1561
+miningSpeedMultiplier = 7.5
+attackDamage = 4.0
+miningLevel = 4
+enchantability = 25
+
+[tools.crackling.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:lethal_gem"

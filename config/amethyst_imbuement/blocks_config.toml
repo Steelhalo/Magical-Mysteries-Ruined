@@ -1,0 +1,45 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[hardLight]
+bridgeTemporary = false
+createTemporary = false
+temporaryDuration = 600
+
+[xpBush]
+bonemealChance = 0.7525123
+growChance = 0.15
+
+[disenchanter]
+levelCosts = [
+    11,
+    17,
+    24,
+    33,
+    44
+]
+baseDisenchantsAllowed = 1
+ignoreCurses = false
+
+[imbuing]
+enchantingEnabled = true
+replaceEnchantingTable = false
+difficultyModifier = 1.0
+
+[imbuing.easyMagic]
+matchEasyMagicBehavior = true
+rerollEnabled = true
+levelCost = 5
+lapisCost = 1
+showTooltip = true
+singleEnchantTooltip = false
+
+[imbuing.reroll]
+matchRerollBehavior = true
+levelCost = 0
+lapisCost = 5
+
+[altar]
+baseLevels = 35
+candleLevelsPer = 5
+customXpMethod = true
