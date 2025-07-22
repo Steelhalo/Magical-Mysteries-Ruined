@@ -12,5 +12,6 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     event.remove({output: 'bewitchment:silver_ingot', input: 'bewitchment:raw_silver'}),
     event.remove({output: 'bewitchment:silver_ingot', input: 'bewitchment:silver_ore'}),
-    event.remove({output: 'bewitchment:silver_ingot', input: 'bewitchment:deepslate_silver_ore'})
+    event.remove({output: 'bewitchment:silver_ingot', input: 'bewitchment:deepslate_silver_ore'}),
+    event.remove({output: 'minecraft:eye_of_ender', input: 'minecraft:ender_pearl'})
 })
