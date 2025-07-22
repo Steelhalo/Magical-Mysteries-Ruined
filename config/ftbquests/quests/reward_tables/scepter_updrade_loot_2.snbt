@@ -1,0 +1,44 @@
+{
+	icon: {
+		Count: 1
+		id: "amethyst_imbuement:book_of_lore"
+		tag: { }
+	}
+	id: "14AA6CE7ABD53A3D"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "scepter_updrade_loot_2"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "amethyst_imbuement:book_of_lore"
+				tag: { }
+			}
+			weight: 1.1f
+		}
+		{
+			item: {
+				Count: 1
+				id: "amethyst_imbuement:book_of_mythos"
+				tag: { }
+			}
+			weight: 0.66f
+		}
+		{
+			type: "xp"
+			weight: 1.2f
+			xp: 200
+		}
+		{ count: 2, item: "amethyst_imbuement:pyrite", weight: 1.3f }
+	]
+	title: "Scepter updrade loot 2"
+}

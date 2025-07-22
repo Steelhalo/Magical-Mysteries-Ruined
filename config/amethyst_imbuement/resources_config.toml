@@ -1,0 +1,6 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+disabledResources = [
+    "optional/iridescent_scepter_imbuing",
+    "optional/lustrous_scepter_imbuing"
+]

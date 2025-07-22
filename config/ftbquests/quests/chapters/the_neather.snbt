@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_neather"
+	group: "27E0B6F74F5F9F55"
+	icon: "minecraft:netherrack"
+	id: "2DD531ACD4ED1A76"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40671836DD89429D"]
+			id: "3674BD4B3EC6CDED"
+			subtitle: "Enjoy your Stay!"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "6786F5C2D51712EE"
+				type: "dimension"
+			}]
+			title: "Welcome to The Heat Death of the Universe"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C9CE0C6AC992A8A"
+				"21F386723C629666"
+			]
+			icon: "minecraft:ender_eye"
+			id: "1C3A3AF55BA0F59C"
+			rewards: [{
+				count: 2
+				id: "1B7461680EC91153"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "You can use a Explorers Compass to find a Stronghold even quicker."
+			tasks: [{
+				id: "57D45BD583635E6A"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Obtain the Eye of Ender"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3674BD4B3EC6CDED"
+				"40671836DD89429D"
+			]
+			id: "1A2C96383AD28C91"
+			rewards: [{
+				id: "672E3E555E99DF94"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				icon: "minecraft:nether_bricks"
+				id: "76293748BE571750"
+				title: "Enter a Better Nether Fortress"
+				type: "advancement"
+			}]
+			title: "The Most Terrible Fortress"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3674BD4B3EC6CDED"
+				"40671836DD89429D"
+			]
+			id: "19ACEFBA2185F2EB"
+			rewards: [{
+				count: 2
+				id: "3C8BE648429D510C"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				icon: "minecraft:polished_blackstone"
+				id: "191FED0F957FB0ED"
+				title: "Enter a Bastion"
+				type: "advancement"
+			}]
+			title: "Those Were the Days"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2C96383AD28C91"]
+			id: "21F386723C629666"
+			rewards: [{
+				id: "33AC9D3ABA34B8E2"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "75CC46D589E7214A"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "Obtain 5 Blaze Rods."
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A2C96383AD28C91"]
+			icon: "minecraft:ender_pearl"
+			id: "3C9CE0C6AC992A8A"
+			rewards: [
+				{
+					id: "676E431D581654BC"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D058C86E1F38D6D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "10ED96628D9E165F"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Obtain 10 Ender Pearls."
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19ACEFBA2185F2EB"]
+			id: "620BB5B7C87439DB"
+			rewards: [
+				{
+					id: "518F3D920CD1DB2D"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2B3CAF9F00FA3B8B"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				icon: "minecraft:gold_ingot"
+				id: "7EA07A8A854FFEA6"
+				title: "Gold!!!"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	title: "The Nether"
+}

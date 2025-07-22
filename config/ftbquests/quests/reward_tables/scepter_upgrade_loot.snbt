@@ -1,0 +1,43 @@
+{
+	icon: {
+		Count: 1
+		id: "amethyst_imbuement:book_of_lore"
+		tag: { }
+	}
+	id: "37DC2838F431D96D"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "scepter_upgrade_loot"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "amethyst_imbuement:book_of_lore"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "amethyst_imbuement:book_of_mythos"
+				tag: { }
+			}
+			weight: 0.33f
+		}
+		{ item: "amethyst_imbuement:xp_bush_seed", weight: 1.5f }
+		{
+			type: "xp"
+			weight: 2.0f
+			xp: 150
+		}
+	]
+	title: "Scepter upgrade loot 1"
+}

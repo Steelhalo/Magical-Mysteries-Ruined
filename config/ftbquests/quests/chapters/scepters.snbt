@@ -1,0 +1,6474 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scepters"
+	group: "550DC794E0349B85"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "amethyst_imbuement:iridescent_scepter"
+		tag: {
+			Damage: 0
+			FURY_lvl: 1
+			FURY_xp: 0
+			GRACE_lvl: 1
+			GRACE_xp: 0
+			WIT_lvl: 1
+			WIT_xp: 0
+		}
+	}
+	id: "5F8D8E8CA84C704B"
+	images: [{
+		height: 4.5d
+		image: "bosses_of_mass_destruction:textures/particle/magic_circle_18.png"
+		rotation: 0.0d
+		width: 4.5d
+		x: 1.0d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A7A95E3252DEB4F"
+				"1600C3E01D710D1B"
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:iridescent_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+				}
+			}
+			id: "7218AAF64F8C1C1F"
+			shape: "rsquare"
+			size: 1.25d
+			title: "Your Scepter Journey has Begun"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7218AAF64F8C1C1F"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:lethality"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.lethality: 1b
+					item_stack_id: 1505476572159537152L
+					mod_init_item.amethyst_imbuement.lethality: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:lethal"
+						}
+						{
+							modifier_id: "amethyst_imbuement:pact_of_lethality"
+						}
+					]
+				}
+			}
+			id: "0AA5100DF48D3EA7"
+			size: 1.25d
+			subtitle: "Specialization: Brutal Combat"
+			tasks: [{
+				disable_toast: true
+				id: "59A3098FFA34CCFD"
+				title: "The Path of the Lethality"
+				type: "checkmark"
+			}]
+			title: "The Path of the Lethality"
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0AA5100DF48D3EA7"]
+			description: ["Modifiers: Dangerous, Pact of Danger, Necrotic, Furious."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:corrupted_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.corrupted_scepter: 1b
+					item_stack_id: 6091122390023748608L
+					mod_init_item.amethyst_imbuement.corrupted_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:necrotic"
+					}]
+				}
+			}
+			id: "05F3E5F9457787AF"
+			tasks: [{
+				disable_toast: true
+				id: "01B977A928FF7501"
+				title: "This one"
+				type: "checkmark"
+			}]
+			title: "Furious Corruption"
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05F3E5F9457787AF"]
+			hide_until_deps_visible: true
+			id: "69E4A48A55FB3030"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34D27BB3A2AEF52D"
+				table_id: 4025136392042568045L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FC5A6C905FE20AF"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:furious_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.furious_scepter: 1b
+						item_stack_id: 968221401845316608L
+						mod_init_item.amethyst_imbuement.furious_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:enraged"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Corruption: Furious Scepter"
+			x: -17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["53F791CBEEE3D091"]
+			id: "0D60D1B1338BE038"
+			rewards: [{
+				id: "4E53D2C26A5E83CA"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E4BE6962F7064B1"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lethality"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.lethality: 1b
+						item_stack_id: 1505476572159537152L
+						mod_init_item.amethyst_imbuement.lethality: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Corruption: Lethality"
+			x: -17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["69E4A48A55FB3030"]
+			id: "53F791CBEEE3D091"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D89104D42390C0F"
+				table_id: 1489122369075493437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0026683BDB77C1DC"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:corrupted_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.corrupted_scepter: 1b
+						item_stack_id: 6091122390023748608L
+						mod_init_item.amethyst_imbuement.corrupted_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:necrotic"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Corruption: Corrupted Scepter"
+			x: -17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["10D0C99D3DA41E2F"]
+			id: "258259AE99636E1B"
+			rewards: [{
+				id: "5B1D517AE7F8163D"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "322265F978B1795B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lethality"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.lethality: 1b
+						item_stack_id: 1505476572159537152L
+						mod_init_item.amethyst_imbuement.lethality: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Agony: Lethality"
+			x: -16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2E6E8FCDF09D814E"]
+			id: "10D0C99D3DA41E2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BA5B4E2C371F6A9"
+				table_id: 1489122369075493437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "368D49BCCF908BF1"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_agonies"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_agonies: 1b
+						item_stack_id: 8032807614762164224L
+						mod_init_item.amethyst_imbuement.scepter_of_agonies: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:greater_enduring"
+							}
+							{
+								modifier_id: "amethyst_imbuement:reach"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Agony: Scepter of Agonies"
+			x: -16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7094D8C648A2F4BD"]
+			hide_until_deps_visible: true
+			id: "2E6E8FCDF09D814E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5732D789B910C210"
+				table_id: 4025136392042568045L
+				type: "random"
+			}]
+			tasks: [{
+				id: "289E4BDF97F4F579"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:furious_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.furious_scepter: 1b
+						item_stack_id: 968221401845316608L
+						mod_init_item.amethyst_imbuement.furious_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:enraged"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Agony: Furious Scepter"
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0AA5100DF48D3EA7"]
+			description: ["Modifiers: Dangerous, Pact of Danger, Enduring, Lesser Reach, Furious."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_agonies"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_agonies: 1b
+					item_stack_id: 8167818557701102592L
+					mod_init_item.amethyst_imbuement.scepter_of_agonies: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:greater_enduring"
+						}
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+					]
+				}
+			}
+			id: "7094D8C648A2F4BD"
+			tasks: [{
+				disable_toast: true
+				id: "2133AB01AB912578"
+				title: "This one"
+				type: "checkmark"
+			}]
+			title: "Furious Agony"
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AA5100DF48D3EA7"]
+			description: ["Modifiers: Dangerous, Pact of Danger, Blade Aspect, Furious."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_blades"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_blades: 1b
+					item_stack_id: 2298980315766090752L
+					mod_init_item.amethyst_imbuement.scepter_of_blades: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:blade_aspect"
+					}]
+				}
+			}
+			id: "53471CB6B38B5A35"
+			tasks: [{
+				disable_toast: true
+				id: "428DA76769383DF1"
+				title: "This one"
+				type: "checkmark"
+			}]
+			title: "Furious Blades"
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53471CB6B38B5A35"]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:furious_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.furious_scepter: 1b
+					item_stack_id: 968221401845316608L
+					mod_init_item.amethyst_imbuement.furious_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:enraged"
+					}]
+				}
+			}
+			id: "6BBA9E88B5FA18C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B5A1139B7EF2D94"
+				table_id: 4025136392042568045L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5E944D854BE56F59"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:furious_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.furious_scepter: 1b
+						item_stack_id: 968221401845316608L
+						mod_init_item.amethyst_imbuement.furious_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:enraged"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Blades: Furious Scepter"
+			x: -15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6BBA9E88B5FA18C3"]
+			id: "5D6FE47BA74CFC7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38C96AF99B7AE4D5"
+				table_id: 1489122369075493437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0D65379EDF8A23C7"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_blades"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_blades: 1b
+						item_stack_id: 2298980315766090752L
+						mod_init_item.amethyst_imbuement.scepter_of_blades: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:blade_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Blades: Scepter of Blades"
+			x: -15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5D6FE47BA74CFC7E"]
+			id: "67C570E1A26E0F60"
+			rewards: [{
+				id: "4DE7B46A9F293B46"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AD8D384C2A22E87"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lethality"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.lethality: 1b
+						item_stack_id: 1505476572159537152L
+						mod_init_item.amethyst_imbuement.lethality: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Furious Blades: Lethality"
+			x: -15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2E7C2E61B6557F30"]
+			id: "009ECE1902881357"
+			rewards: [{
+				id: "0A96EF1F2794547E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08C611E8240EB446"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lethality"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.lethality: 1b
+						item_stack_id: 7181418096167689216L
+						mod_init_item.amethyst_imbuement.lethality: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Corruption: Lethality"
+			x: -14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0D10DE15B2EC77B2"]
+			id: "4B58F47494B2D94D"
+			rewards: [{
+				id: "7D566FBAAE97DF82"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF7BAE4349CDC41"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lethality"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.lethality: 1b
+						item_stack_id: 7181418096167689216L
+						mod_init_item.amethyst_imbuement.lethality: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Agony: Lethality"
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1264D282B4710BF1"]
+			id: "2E7C2E61B6557F30"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BD7B8E9ECB1CD24"
+				table_id: 1489122369075493437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B72128B5CEAED45"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:corrupted_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.corrupted_scepter: 1b
+						item_stack_id: 2711234129731188736L
+						mod_init_item.amethyst_imbuement.corrupted_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:necrotic"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Corruption: Corrupted Scepter"
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["17A05750C0040F91"]
+			id: "0D10DE15B2EC77B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "195AD8762775D0CD"
+				table_id: 1489122369075493437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "243F857FB960909A"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_agonies"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_agonies: 1b
+						item_stack_id: 8167818557701102592L
+						mod_init_item.amethyst_imbuement.scepter_of_agonies: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:greater_enduring"
+							}
+							{
+								modifier_id: "amethyst_imbuement:reach"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Agony: Scepter of Agonies"
+			x: -13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["156C714211574528"]
+			hide_until_deps_visible: true
+			id: "1264D282B4710BF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64B69BABF94755E1"
+				table_id: 4025136392042568045L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1ACA8AEF706EAF29"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:dangerous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.dangerous_scepter: 1b
+						item_stack_id: 5855588278866305024L
+						mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Corruption: Dangerious Scepter"
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F1624EE4F800418"]
+			hide_until_deps_visible: true
+			id: "17A05750C0040F91"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62391C40446C395C"
+				table_id: 4025136392042568045L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5FEA093B8DA098AE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:dangerous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.dangerous_scepter: 1b
+						item_stack_id: 3022799292054632448L
+						mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Agony: Dangerious Scepter"
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0AA5100DF48D3EA7"]
+			description: ["Modifiers: Lethal, Pact of Lethality, Necrotic."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:corrupted_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.corrupted_scepter: 1b
+					item_stack_id: 2711234129731188736L
+					mod_init_item.amethyst_imbuement.corrupted_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:necrotic"
+					}]
+				}
+			}
+			id: "156C714211574528"
+			tasks: [{
+				disable_toast: true
+				id: "4375863B4713579F"
+				title: "This one"
+				type: "checkmark"
+			}]
+			title: "Dangerous Corruption"
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AA5100DF48D3EA7"]
+			description: ["Modifiers: Lethal, Pact of Lethality, Enduring, Lesser Reach"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_agonies"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_agonies: 1b
+					item_stack_id: 8167818557701102592L
+					mod_init_item.amethyst_imbuement.scepter_of_agonies: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:greater_enduring"
+						}
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+					]
+				}
+			}
+			id: "0F1624EE4F800418"
+			tasks: [{
+				disable_toast: true
+				id: "37B95CD01CA1BF88"
+				title: "This one"
+				type: "checkmark"
+			}]
+			title: "Dangerous Agony"
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AA5100DF48D3EA7"]
+			description: [".Modifiers: Lethal, Pact of Lethality, Blade Aspect."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_blades"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_blades: 1b
+					item_stack_id: 2298980315766090752L
+					mod_init_item.amethyst_imbuement.scepter_of_blades: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:blade_aspect"
+					}]
+				}
+			}
+			id: "01BEB881984BE514"
+			tasks: [{
+				disable_toast: true
+				id: "4F3F7C8F6185AE06"
+				title: "This one"
+				type: "checkmark"
+			}]
+			title: "Dangerous Blades"
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01BEB881984BE514"]
+			hide_until_deps_visible: true
+			id: "36D02D1311E3C6D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A8B541718C3BECA"
+				table_id: 4025136392042568045L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37D87C06859ECAA9"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:dangerous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.dangerous_scepter: 1b
+						item_stack_id: 3022799292054632448L
+						mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Blades: Dangerious Scepter"
+			x: -12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D02D1311E3C6D9"]
+			id: "2B7F55A1B7BAD5FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13AF5019C1769C39"
+				table_id: 1489122369075493437L
+				type: "random"
+			}]
+			tasks: [{
+				id: "004AFEE5A2DC489B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_blades"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_blades: 1b
+						item_stack_id: 169563073394945024L
+						mod_init_item.amethyst_imbuement.scepter_of_blades: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:blade_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Blades: Scepter of Blades"
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2B7F55A1B7BAD5FE"]
+			id: "0C10528C6A3837C8"
+			rewards: [{
+				id: "5D84398ADDF5D21E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5535A61D6D3ECD6A"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:lethality"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.lethality: 1b
+						item_stack_id: 7181418096167689216L
+						mod_init_item.amethyst_imbuement.lethality: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dangerous Blades: Lethality"
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4D2FEB843CC8A8FB"]
+			id: "7C52FDE978FDB27F"
+			rewards: [{
+				id: "08C5193D995699D6"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0944F0112F531845"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:equinox"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.equinox: 1b
+						item_stack_id: 8604444425065646080L
+						mod_init_item.amethyst_imbuement.equinox: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:elemental"
+							}
+							{
+								modifier_id: "amethyst_imbuement:enraged"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sparkling Fury: Equinox"
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["054FDD4232CA26B6"]
+			id: "4D2FEB843CC8A8FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AC9D3C548B18CF2"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "78BA8A3784D471E9"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sparking_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sparking_scepter: 1b
+						item_stack_id: 9046498676507304960L
+						mod_init_item.amethyst_imbuement.sparking_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:fulgurous"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sparking Fury: Sparking Scepter"
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0B3B35C278EFBCC2"]
+			hide_until_deps_visible: true
+			id: "054FDD4232CA26B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E0FC204E3A8D7B"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "19F9F377AA0C780C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:furious_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.furious_scepter: 1b
+						item_stack_id: 9166286073653161984L
+						mod_init_item.amethyst_imbuement.furious_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:enraged"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sparking Fury: Furious Scepter"
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D031E4307B674CF"]
+			description: ["Modifiers: Elemental, Lightning Aspect, Enraged."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:sparking_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.sparking_scepter: 1b
+					item_stack_id: 2307002516069410816L
+					mod_init_item.amethyst_imbuement.sparking_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:fulgurous"
+					}]
+				}
+			}
+			id: "0B3B35C278EFBCC2"
+			tasks: [{
+				id: "26BFB415AE56BC9A"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Sparkling Fury"
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D031E4307B674CF"]
+			description: ["Modifiers: Elemental, Ice Aspect, Enraged."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:frosted_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.frosted_scepter: 1b
+					item_stack_id: 5558447158923679744L
+					mod_init_item.amethyst_imbuement.frosted_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:ice_aspect"
+					}]
+				}
+			}
+			id: "4A6100F967F0B74B"
+			tasks: [{
+				id: "6572C27171D316DC"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Frosted Fury"
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A6100F967F0B74B"]
+			hide_until_deps_visible: true
+			id: "57C3CD14E86CB23E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F27A9E68615794A"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DB2CB0356FBE84B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:furious_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.furious_scepter: 1b
+						item_stack_id: 9166286073653161984L
+						mod_init_item.amethyst_imbuement.furious_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:enraged"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Fury: Furious Scepter"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57C3CD14E86CB23E"]
+			id: "11061411BF56D035"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41E2C8D75F420F03"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "63C3054C48C62C07"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:frosted_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.frosted_scepter: 1b
+						item_stack_id: 5558447158923679744L
+						mod_init_item.amethyst_imbuement.frosted_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:ice_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Fury: Frosted Scepter"
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["11061411BF56D035"]
+			id: "4EA9EBE2C043EDEE"
+			rewards: [{
+				id: "41CF3E1C922223E1"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12C8F3A979A59704"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:equinox"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.equinox: 1b
+						item_stack_id: 8604444425065646080L
+						mod_init_item.amethyst_imbuement.equinox: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:elemental"
+							}
+							{
+								modifier_id: "amethyst_imbuement:enraged"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Fury: Equinox"
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["489CA4582451F9B9"]
+			id: "7D21A3C1B4CEF666"
+			rewards: [{
+				id: "5EBC1E8A15B42128"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BECFB5ADDFF2F84"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:equinox"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.equinox: 1b
+						item_stack_id: 7725594833249600512L
+						mod_init_item.amethyst_imbuement.equinox: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:elemental"
+							}
+							{
+								modifier_id: "amethyst_imbuement:enraged"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Fury: Equinox"
+			x: -9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5115AFE7E62EED92"]
+			id: "489CA4582451F9B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D0E028B7B08819"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53FCBBCAA17F1A45"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:blazing_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.blazing_scepter: 1b
+						item_stack_id: 805153076735037440L
+						mod_init_item.amethyst_imbuement.blazing_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:fire_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Fury: Blazing Scepter"
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FEAF9F82ED86138"]
+			hide_until_deps_visible: true
+			id: "5115AFE7E62EED92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F74829758744F6A"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "185B38292E541A5A"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:furious_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.furious_scepter: 1b
+						item_stack_id: 9166286073653161984L
+						mod_init_item.amethyst_imbuement.furious_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:enraged"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Fury: Furious Scepter"
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D031E4307B674CF"]
+			description: ["Modifiers: Elemental, Fire Aspect, Enraged."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:blazing_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.blazing_scepter: 1b
+					item_stack_id: 1219526957503006720L
+					mod_init_item.amethyst_imbuement.blazing_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:fire_aspect"
+					}]
+				}
+			}
+			id: "0FEAF9F82ED86138"
+			tasks: [{
+				id: "0AD9B6F3F15B2CCA"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Blazing Fury"
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D031E4307B674CF"]
+			description: ["Modifiers: Elemental, Furious, Lightning Aspect, Dangerous, Pact of Danger."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:sparking_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.sparking_scepter: 1b
+					item_stack_id: 9046498676507304960L
+					mod_init_item.amethyst_imbuement.sparking_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:fulgurous"
+					}]
+				}
+			}
+			id: "4EFFA0CEA0BB9D3C"
+			tasks: [{
+				id: "05691A92B587F476"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Sparking Danger"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EFFA0CEA0BB9D3C"]
+			hide_until_deps_visible: true
+			id: "6FB6B3F02F1DBD90"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EDA5F4FAF163A5E"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "762DF13026E58A26"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:dangerous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.dangerous_scepter: 1b
+						item_stack_id: 3022799292054632448L
+						mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sparking Danger: Dangerous Scepter"
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6FB6B3F02F1DBD90"]
+			id: "3AF927F2DC96688D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C16E88FA4E01370"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7A5C95C373C6C2CE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sparking_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sparking_scepter: 1b
+						item_stack_id: 2307002516069410816L
+						mod_init_item.amethyst_imbuement.sparking_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:fulgurous"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sparking Danger: Sparking Scepter"
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3AF927F2DC96688D"]
+			id: "495DCD03E5715CCC"
+			rewards: [{
+				id: "167E4FEEF7C9DDBE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C9084C335F62F2C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:equinox"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.equinox: 1b
+						item_stack_id: 7725594833249600512L
+						mod_init_item.amethyst_imbuement.equinox: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:elemental"
+							}
+							{
+								modifier_id: "amethyst_imbuement:enraged"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Danger: Equinox"
+			x: -8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0FC3F3265842B28F"]
+			id: "060BDEEC963A590E"
+			rewards: [{
+				id: "609F8B5D86DEAEC6"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DE6B889D402319E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:equinox"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.equinox: 1b
+						item_stack_id: 7725594833249600512L
+						mod_init_item.amethyst_imbuement.equinox: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:elemental"
+							}
+							{
+								modifier_id: "amethyst_imbuement:enraged"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Danger: Equinox"
+			x: -7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26511527C2675519"]
+			id: "0FC3F3265842B28F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A7370B014C896D5"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D39CFEE5F95BF44"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:frosted_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.frosted_scepter: 1b
+						item_stack_id: 818730542172362752L
+						mod_init_item.amethyst_imbuement.frosted_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:ice_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Danger: Frosted Scepter"
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7345719741216009"]
+			hide_until_deps_visible: true
+			id: "26511527C2675519"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72A77E93F629DFA6"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "42FD2A9FD02D9107"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:dangerous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.dangerous_scepter: 1b
+						item_stack_id: 3022799292054632448L
+						mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Frosted Danger: Dangerous Scepter"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D031E4307B674CF"]
+			description: ["Modifiers: Elemental, Furious, Ice Aspect, Dangerous, Pact of Danger."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:frosted_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.frosted_scepter: 1b
+					item_stack_id: 818730542172362752L
+					mod_init_item.amethyst_imbuement.frosted_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:ice_aspect"
+					}]
+				}
+			}
+			id: "7345719741216009"
+			tasks: [{
+				id: "213475409A91837D"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Frosted Danger"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D031E4307B674CF"]
+			description: ["Modifiers: Elemental, Furious, Fire Aspect, Dangerous, Pact of Danger."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:blazing_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.blazing_scepter: 1b
+					item_stack_id: 805153076735037440L
+					mod_init_item.amethyst_imbuement.blazing_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:fire_aspect"
+					}]
+				}
+			}
+			id: "5340BC588B454278"
+			tasks: [{
+				id: "338C4A4F1B7312CB"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Blazing Danger"
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5340BC588B454278"]
+			hide_until_deps_visible: true
+			id: "3851A9F545356506"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26149F5BF5B44F2C"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "67C0118D275B5D28"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:dangerous_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.dangerous_scepter: 1b
+						item_stack_id: 3022799292054632448L
+						mod_init_item.amethyst_imbuement.dangerous_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lethal"
+							}
+							{
+								modifier_id: "amethyst_imbuement:pact_of_lethality"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Danger: Dangerous Scepter"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3851A9F545356506"]
+			id: "29FCAF0D4D8F1D2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77B41D9D1362C10F"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6EDFF0C6F9EE3A5C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:blazing_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.blazing_scepter: 1b
+						item_stack_id: 805153076735037440L
+						mod_init_item.amethyst_imbuement.blazing_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:fire_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Danger: Blazing Scepter"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["29FCAF0D4D8F1D2D"]
+			id: "2DAA3DD6FCED8702"
+			rewards: [{
+				id: "7CECFF56C8BE390E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D4C0EB2820EC102"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:equinox"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.equinox: 1b
+						item_stack_id: 8604444425065646080L
+						mod_init_item.amethyst_imbuement.equinox: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:elemental"
+							}
+							{
+								modifier_id: "amethyst_imbuement:enraged"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Blazing Danger: Equinox"
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3028CCDBF54E51BF"]
+			id: "3AA84C85A5BA8495"
+			rewards: [{
+				id: "2052ADE97F192EE0"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "596D41B6F8A9334C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:resonance"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.resonance: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:echoing"
+							}
+							{
+								modifier_id: "amethyst_imbuement:skillful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Summoning: Resonance"
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3EC6DD511A0D3F45"]
+			id: "3028CCDBF54E51BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0889106F0A8DD62B"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03362A3005537F02"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_summoning"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_summoning: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:summoners_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Summoning: Scepter of Summoning"
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["19501ED4241AE967"]
+			hide_until_deps_visible: true
+			id: "3EC6DD511A0D3F45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "093C36D3A8AD0A62"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "76B055B9BE863BF8"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:witty_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.witty_scepter: 1b
+						item_stack_id: 8265444973238526976L
+						mod_init_item.amethyst_imbuement.witty_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:genius"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Summoning: Witty Scepter"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D434E8C79609EA3"]
+			description: ["Modifiers: Echoing, Skillful, Summoners Aspect, Wtitty."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_summoning"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_summoning: 1b
+					item_stack_id: 7217517387430149120L
+					mod_init_item.amethyst_imbuement.scepter_of_summoning: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:summoners_aspect"
+					}]
+				}
+			}
+			id: "19501ED4241AE967"
+			tasks: [{
+				id: "51EB9ED70A6019C0"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Witty Summoning"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D434E8C79609EA3"]
+			description: ["Modifiers: Echoing, Skillful, Insightful, Witty, Lesser Reach."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_insight"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_insight: 1b
+					item_stack_id: 5169606338896130048L
+					mod_init_item.amethyst_imbuement.scepter_of_insight: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:insightful"
+						}
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+					]
+				}
+			}
+			id: "716751B643B9E3FC"
+			tasks: [{
+				id: "0522296C32A0D366"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Witty Insight 1"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["716751B643B9E3FC"]
+			hide_until_deps_visible: true
+			id: "0E3D784A6578AFB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B4CB7716422B905"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3F3C029B1F7D7CD1"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:witty_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.witty_scepter: 1b
+						item_stack_id: 8265444973238526976L
+						mod_init_item.amethyst_imbuement.witty_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:genius"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Insight 1: Witty Scepter"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E3D784A6578AFB2"]
+			id: "55FD468FEF785348"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "249477D1F1F3D8EF"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33EDD576ECED11AE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_insight"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_insight: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:insightful"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_reach"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Insight 1: Scepter of Insight"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["55FD468FEF785348"]
+			id: "6B8BD79FB835EC37"
+			rewards: [{
+				id: "69DCD887654F36D4"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3942CABBFE1C191B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:resonance"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.resonance: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:echoing"
+							}
+							{
+								modifier_id: "amethyst_imbuement:skillful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Insight 1: Resonance"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2366E34C3DB0F497"]
+			id: "1E389AD3BB11019B"
+			rewards: [{
+				id: "0D6F482768D72680"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AA8388741B6BC8F"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:resonance"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.resonance: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:echoing"
+							}
+							{
+								modifier_id: "amethyst_imbuement:skillful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Insight 2: Resonance"
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7B2859E0F6081097"]
+			id: "2366E34C3DB0F497"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35B2EC76D8B5FB62"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4864FA287819695D"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:persuasive_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.persuasive_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_core:lesser_attuned"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Insight 2: Persuasive Scepter"
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2C267F2F2BF5C66B"]
+			hide_until_deps_visible: true
+			id: "7B2859E0F6081097"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CDEA7A6B28F8C25"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3145617D23AF0333"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:witty_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.witty_scepter: 1b
+						item_stack_id: 8265444973238526976L
+						mod_init_item.amethyst_imbuement.witty_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:genius"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Insight 2: Witty Scepter"
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D434E8C79609EA3"]
+			description: ["Modifiers: Echoing, Skillful, Genius, Lesser Attuned."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:persuasive_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.persuasive_scepter: 1b
+					item_stack_id: 6517924218000103424L
+					mod_init_item.amethyst_imbuement.persuasive_scepter: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:genius"
+						}
+						{
+							modifier_id: "amethyst_core:attuned"
+						}
+					]
+				}
+			}
+			id: "2C267F2F2BF5C66B"
+			tasks: [{
+				id: "31AF7E5A091F6F94"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Witty Insight 2"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D434E8C79609EA3"]
+			description: ["Modifiers: Echoing, Masterful, Summoners Aspect."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_summoning"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_summoning: 1b
+					item_stack_id: 7217517387430149120L
+					mod_init_item.amethyst_imbuement.scepter_of_summoning: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:summoners_aspect"
+					}]
+				}
+			}
+			id: "402450251793A82E"
+			tasks: [{
+				id: "0548F494D60CB259"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Skilled Summoning"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["402450251793A82E"]
+			hide_until_deps_visible: true
+			id: "2356CA3DA464FCE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E885B9660891D85"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4DD41D296ECF6832"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:skillful_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.skillful_scepter: 1b
+						item_stack_id: 8515108895708326912L
+						mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:masterful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Summoning: Skillful Scepter"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2356CA3DA464FCE6"]
+			id: "23067CF7B50DD2E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "658A85DE4C74BDCF"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "06133FBEBDFD44AB"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_summoning"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_summoning: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:summoners_aspect"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Summoning: Scepter of Summoning"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23067CF7B50DD2E9"]
+			id: "12D25730662F605B"
+			rewards: [{
+				id: "7566B75E766148DD"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29D6F8A823A0DAC5"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:resonance"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.resonance: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:echoing"
+							}
+							{
+								modifier_id: "amethyst_imbuement:skillful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Summoning: Resonance"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5EEF4F31204B1990"]
+			id: "2D15DC10E70B2C83"
+			rewards: [{
+				id: "14DE54C2F7506B64"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BD2083480BC9BDA"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:resonance"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.resonance: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:echoing"
+							}
+							{
+								modifier_id: "amethyst_imbuement:skillful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Insight 1: Resonance"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0A44C04D82914AE0"]
+			id: "5B9EF2D487521AE1"
+			rewards: [{
+				id: "039FB09DFDA1664E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "247D0E17E5DD830B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:resonance"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.resonance: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:echoing"
+							}
+							{
+								modifier_id: "amethyst_imbuement:skillful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Insight 2: Resonance"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0A74FECDCC4FD804"]
+			id: "5EEF4F31204B1990"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "418932E38E4F7B8C"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "42197128FE971D09"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_insight"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_insight: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:insightful"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_reach"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Insight 1: Scepter of Insight"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["126425DFF8C6DF10"]
+			id: "0A44C04D82914AE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "176D5C6EBED74367"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "681D6ACE2873D5EE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:persuasive_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.persuasive_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_core:lesser_attuned"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Insight 2: Persuasive Scepter"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27B6293B684055AB"]
+			hide_until_deps_visible: true
+			id: "0A74FECDCC4FD804"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DABD0E07BF01677"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1823B92DA029F169"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:skillful_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.skillful_scepter: 1b
+						item_stack_id: 8515108895708326912L
+						mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:masterful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Insight 1: Skillful Scepter"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D58E40A69C7CF78"]
+			hide_until_deps_visible: true
+			id: "126425DFF8C6DF10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC7ACF5410C1766"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1CEEEA5E95C3DBA5"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:skillful_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.skillful_scepter: 1b
+						item_stack_id: 8515108895708326912L
+						mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:masterful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Insight 2: Skillful Scepter"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7D434E8C79609EA3"]
+			description: ["Modifiers: Echoing, Masterful, Insightful, Lesser Reach."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_insight"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_insight: 1b
+					item_stack_id: 5169606338896130048L
+					mod_init_item.amethyst_imbuement.scepter_of_insight: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:insightful"
+						}
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+					]
+				}
+			}
+			id: "27B6293B684055AB"
+			tasks: [{
+				id: "55A3E27C3890B86D"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Skilled Insight 1"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D434E8C79609EA3"]
+			description: ["Modifiers: Echoing, Masterful, Witty, Lesser Attuned."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:persuasive_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.persuasive_scepter: 1b
+					item_stack_id: 1673143494186901504L
+					mod_init_item.amethyst_imbuement.persuasive_scepter: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:genius"
+						}
+						{
+							modifier_id: "amethyst_core:attuned"
+						}
+					]
+				}
+			}
+			id: "4D58E40A69C7CF78"
+			tasks: [{
+				id: "0DEA2E00EC3AAAF0"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Skilled Insight 2"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7218AAF64F8C1C1F"]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:resonance"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.resonance: 1b
+					item_stack_id: 8079403278765960192L
+					mod_init_item.amethyst_imbuement.resonance: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:echoing"
+						}
+						{
+							modifier_id: "amethyst_imbuement:masterful"
+						}
+					]
+				}
+			}
+			id: "7D434E8C79609EA3"
+			size: 1.25d
+			subtitle: "Specialization: Overwhelming Spells"
+			tasks: [{
+				id: "6C40B50C4C3A4271"
+				title: "The Path of the Resonance"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7218AAF64F8C1C1F"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:equinox"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.equinox: 1b
+					item_stack_id: 7725594833249600512L
+					mod_init_item.amethyst_imbuement.equinox: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:elemental"
+						}
+						{
+							modifier_id: "amethyst_imbuement:enraged"
+						}
+					]
+				}
+			}
+			id: "7D031E4307B674CF"
+			size: 1.25d
+			subtitle: "Specialization: Elemental Spells"
+			tasks: [{
+				id: "4A3D49B8E0DB9BB9"
+				title: "The Path of the Equinox"
+				type: "checkmark"
+			}]
+			title: "The Path of the Equinox"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45154876D5719C69"]
+			hide_until_deps_visible: true
+			id: "149B72D4E3E2840F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D2D82BADA51685"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "652A739CFB1BE1C4"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:witty_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.witty_scepter: 1b
+						item_stack_id: 8265444973238526976L
+						mod_init_item.amethyst_imbuement.witty_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:genius"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Travel: Witty Scepter"
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["556DC9531B87984B"]
+			description: ["Modifiers: Genius, Traveler, Lesser Reach, Builders Aspect."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:travelers_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.travelers_scepter: 1b
+					item_stack_id: 2675768704789684224L
+					mod_init_item.amethyst_imbuement.travelers_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:sojourner"
+					}]
+				}
+			}
+			id: "45154876D5719C69"
+			tasks: [{
+				id: "1499EC9CB38C9547"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Witty Travel"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["149B72D4E3E2840F"]
+			id: "7A9B1AF7EA76FB7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AEC8BAB08340902"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "32D5A8CA55BCE21F"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:travelers_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.travelers_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:traveler"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Travel: Travelers Scepter"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7A9B1AF7EA76FB7C"]
+			id: "06FF8D088343B6C2"
+			rewards: [{
+				id: "59211F3B3B1B0DB7"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B48A06C44F8E7F3"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sojourn"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:survey"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sojourn: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.sojourn: 1b
+						fallback_init: 1b
+						item_stack_id: 6176179040421908480L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_imbuement:traveler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Travel: Sojourn"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["441B7AE6BB3EBDD8"]
+			id: "2D78C3B733DC601E"
+			rewards: [{
+				id: "7242696FA5833E48"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00FDC8D73330195C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sojourn"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:survey"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sojourn: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.sojourn: 1b
+						fallback_init: 1b
+						item_stack_id: 6176179040421908480L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_imbuement:traveler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Recall: Sojourn"
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3840F9D0A5C642E9"]
+			id: "0F0CA1C335A7982A"
+			rewards: [{
+				id: "45828F20DA0CB443"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48481EA0A1693C93"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sojourn"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:survey"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sojourn: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.sojourn: 1b
+						fallback_init: 1b
+						item_stack_id: 6176179040421908480L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_imbuement:traveler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Building: Sojourn"
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3E35061BD42A6737"]
+			id: "13DB68F22E66C0BA"
+			rewards: [{
+				id: "5BAC099A76B1BA63"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E6670728C6D0866"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sojourn"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:survey"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sojourn: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.sojourn: 1b
+						fallback_init: 1b
+						item_stack_id: 6176179040421908480L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_imbuement:traveler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Travel: Sojourn"
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6C59169B9D3E5BC0"]
+			id: "441B7AE6BB3EBDD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3402C1BE0CF5DB1B"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "202567C208C5DD46"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_recall"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_recall: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:greater_reach"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Recall: Scepter of Recall"
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34C065D5C9902D60"]
+			id: "3840F9D0A5C642E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52598E77DC96CA8E"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D74EFB17A728859"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:builders_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:hard_light_bridge"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.builders_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.builders_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 8315689570780069888L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:builders_aspect"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_reach"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Building: Builders Scepter"
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7FD1BD8173897A3A"]
+			id: "3E35061BD42A6737"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5542F67E154D3205"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "300F995DE479482C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:travelers_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:summon_boat"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:summon_strider"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.travelers_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.travelers_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 7576894156280698880L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:traveler"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Travel: Travelers Scepter"
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03072115594F4322"]
+			id: "6C59169B9D3E5BC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16A40B0FC51B1B3E"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "767B55B8DD1AE158"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:witty_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.witty_scepter: 1b
+						item_stack_id: 8265444973238526976L
+						mod_init_item.amethyst_imbuement.witty_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:genius"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Recall: Witty Scepter"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5CD933DA2F82A22F"]
+			id: "34C065D5C9902D60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EF9044EE9206C76"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "33706833CA69FB6C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:witty_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.witty_scepter: 1b
+						item_stack_id: 8265444973238526976L
+						mod_init_item.amethyst_imbuement.witty_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:genius"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Witty Building: Witty Scepter"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["47853A6A1153AEDD"]
+			id: "7FD1BD8173897A3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "155B13A90BC9A16C"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5CC85B20E097079E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:skillful_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.skillful_scepter: 1b
+						item_stack_id: 8515108895708326912L
+						mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:masterful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Travel: Skillful Scepter"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["556DC9531B87984B"]
+			description: ["Modifiers: Genius, Traveler, Greater Reach."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_recall"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_recall: 1b
+					item_stack_id: 620566460519837696L
+					mod_init_item.amethyst_imbuement.scepter_of_recall: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:greater_reach"
+					}]
+				}
+			}
+			id: "03072115594F4322"
+			tasks: [{
+				id: "603B707AAB8AF9FB"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Witty Recall"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["556DC9531B87984B"]
+			description: ["Modifiers: Genius, Sojourner."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:builders_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.builders_scepter: 1b
+					item_stack_id: 2579708174604841984L
+					mod_init_item.amethyst_imbuement.builders_scepter: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:builders_aspect"
+						}
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+					]
+				}
+			}
+			id: "5CD933DA2F82A22F"
+			tasks: [{
+				id: "21C620DCCCC2FAA4"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Witty Building"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["556DC9531B87984B"]
+			description: ["Modifiers: Witty, Skillful, Traveler, Lesser Reach, Builders Aspect."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:travelers_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.travelers_scepter: 1b
+					item_stack_id: 2675768704789684224L
+					mod_init_item.amethyst_imbuement.travelers_scepter: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:sojourner"
+					}]
+				}
+			}
+			id: "47853A6A1153AEDD"
+			tasks: [{
+				id: "3A4411F8F0FF499D"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Skilled Travel"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7218AAF64F8C1C1F"]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:sojourn"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.sojourn: 1b
+					item_stack_id: 8268130496274177024L
+					mod_init_item.amethyst_imbuement.sojourn: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:genius"
+						}
+						{
+							modifier_id: "amethyst_imbuement:sojourner"
+						}
+					]
+				}
+			}
+			id: "556DC9531B87984B"
+			size: 1.25d
+			subtitle: "Specialization: Exploration"
+			tasks: [{
+				id: "1B32EC183AC3C17D"
+				title: "The Path of the Sojourn"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["556DC9531B87984B"]
+			description: ["Modifiers: Witty, Skillful, Traveler, Greater Reach."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_recall"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_recall: 1b
+					item_stack_id: 5148464653687321600L
+					mod_init_item.amethyst_imbuement.scepter_of_recall: 1b
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:greater_reach"
+					}]
+				}
+			}
+			id: "3CE3C1FFA49014A3"
+			tasks: [{
+				id: "77ECAA00F55A6209"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Skilled Recall"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3CE3C1FFA49014A3"]
+			id: "748831E92010A408"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06D485DA2FAE5233"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "03BBEED6599B08E4"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:skillful_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.skillful_scepter: 1b
+						item_stack_id: 8515108895708326912L
+						mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:masterful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Recall: Skillful Scepter"
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["69B664848DE054AC"]
+			id: "4F000FF87829F290"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BFED87A862FC877"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4A2D4A872491C2AD"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:skillful_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.skillful_scepter: 1b
+						item_stack_id: 8515108895708326912L
+						mod_init_item.amethyst_imbuement.skillful_scepter: 1b
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:masterful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Building: Skillful Scepter"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["556DC9531B87984B"]
+			description: ["Modifiers: Witty, Skillful, Sojourner."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:builders_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.builders_scepter: 1b
+					item_stack_id: 8593049893759574016L
+					mod_init_item.amethyst_imbuement.builders_scepter: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:builders_aspect"
+						}
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+					]
+				}
+			}
+			id: "69B664848DE054AC"
+			tasks: [{
+				id: "5F4F6DD7FED1EF2D"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Skilled Building"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["748831E92010A408"]
+			id: "42FB90F7D2E3D376"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AFA1CD0DF7EE43B"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3E97C1F4F2AD6E5C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_recall"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:recall"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_recall: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.scepter_of_recall: 1b
+						fallback_init: 1b
+						item_stack_id: 4328259825321381888L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:greater_reach"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Recall: Scepter of Recall"
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F000FF87829F290"]
+			id: "6929C9EF9C29AA64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF32641D0AE754B"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "36406781364BEFE1"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:builders_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.builders_scepter: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:builders_aspect"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_reach"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Building: Builders Scepter"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["42FB90F7D2E3D376"]
+			id: "4E318FE77E6F14AB"
+			rewards: [{
+				id: "2319D3C7BD409212"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F920F0C5F218567"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sojourn"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:survey"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sojourn: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.sojourn: 1b
+						fallback_init: 1b
+						item_stack_id: 6176179040421908480L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_imbuement:traveler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Recall: Sojourn"
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6929C9EF9C29AA64"]
+			id: "0E90DB571E78BD27"
+			rewards: [{
+				id: "76A91D754187C6E6"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B037831CCEFB875"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:sojourn"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:survey"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.sojourn: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.sojourn: 1b
+						fallback_init: 1b
+						item_stack_id: 6176179040421908480L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:witty"
+							}
+							{
+								modifier_id: "amethyst_imbuement:traveler"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Skilled Building: Sojourn"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1746CFA3F3CD2699"]
+			id: "71A5AD6495062EC3"
+			rewards: [{
+				id: "63582F1FA4CCAE9E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C9E11847952D67A"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:aegis"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.aegis: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.aegis: 1b
+						fallback_init: 1b
+						item_stack_id: 4348965837550941184L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Paladin: Aegis"
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["718CC5D315C47887"]
+			id: "60A16B79033632CC"
+			rewards: [{
+				id: "2C390797AC8EBB66"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E70F25C41A43FA9"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:aegis"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.aegis: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.aegis: 1b
+						fallback_init: 1b
+						item_stack_id: 4348965837550941184L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Vanguard: Aegis"
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["70D1700926BD705F"]
+			id: "1746CFA3F3CD2699"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4247AA0B0044882F"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "66FDF6A8B8C53D4D"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_the_paladin"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_the_paladin: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Paladin: Scepter of the Paladin"
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FC5C26D6F569B01"]
+			id: "718CC5D315C47887"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7885B148E5373B10"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6021C56AE016BDC7"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_the_vanguard"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_the_vanguard: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+							{
+								modifier_id: "amethyst_imbuement:graceful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Vanguard: Scepter of the Vanguard"
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27BCF195739DECE2"]
+			id: "0FC5C26D6F569B01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13A85842AF6EF50E"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "50A8695BD1EA04C8"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:graceful_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.graceful_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.graceful_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 3440519216511449088L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:graceful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Vanguard: Graceful Scepter"
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["21659B52CC5C0BCF"]
+			id: "70D1700926BD705F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0390154FB1860725"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4B14BAB0E9F3D072"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:graceful_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.graceful_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.graceful_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 3440519216511449088L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:graceful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Paladin: Graceful Scepter"
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A6A28BA748769EA"]
+			description: ["Modifiers: Champion of the Meek, Smiting, Lesser Enduring, Graceful."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_the_paladin"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_the_paladin: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:protective"
+						}
+						{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}
+					]
+				}
+			}
+			id: "21659B52CC5C0BCF"
+			tasks: [{
+				id: "67158ECED150A48E"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Graceful Paladin"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A6A28BA748769EA"]
+			description: ["Modifiers: Protective, Warrior of Light, Elegant."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_the_vanguard"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_the_vanguard: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:smiting"
+						}
+						{
+							modifier_id: "amethyst_imbuement:graceful"
+						}
+					]
+				}
+			}
+			id: "27BCF195739DECE2"
+			tasks: [{
+				id: "489B9B219F458A6F"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Graceful Vanguard"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7218AAF64F8C1C1F"]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:aegis"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.aegis: 1b
+					item_stack_id: 9026360933310126080L
+					mod_init_item.amethyst_imbuement.aegis: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:champion_of_the_meek"
+						}
+						{
+							modifier_id: "amethyst_imbuement:warrior_of_light"
+						}
+					]
+				}
+			}
+			id: "2A6A28BA748769EA"
+			size: 1.25d
+			subtitle: "Specialization: Tanking"
+			tasks: [{
+				id: "78AE96F87614C727"
+				title: "The Path of the Aegis"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A6A28BA748769EA"]
+			description: ["Modifiers: Protective, Smiting, Reach, Graceful."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_harvests"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:animal_husbandry"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_harvests: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.scepter_of_harvests: 1b
+					fallback_init: 1b
+					item_stack_id: 838646948893077504L
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+						{
+							modifier_id: "amethyst_core:lesser_thrifty"
+						}
+					]
+				}
+			}
+			id: "07E64CDBA943F83B"
+			tasks: [{
+				id: "67AC3906716D743B"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Graceful Harvests"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07E64CDBA943F83B"]
+			id: "62FFE678D66AF107"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56CF6AC0B9DEC008"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "65B6DDF1E6A715CC"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:graceful_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.graceful_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.graceful_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 3440519216511449088L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:graceful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Harvests: Graceful Scepter"
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["62FFE678D66AF107"]
+			id: "1860EAFFEBADFE7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5529D8EA2901B393"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7A7024BCCFA62554"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_harvests"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:animal_husbandry"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_harvests: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.scepter_of_harvests: 1b
+						fallback_init: 1b
+						item_stack_id: 838646948893077504L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:reach"
+							}
+							{
+								modifier_id: "amethyst_core:lesser_thrifty"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Harvests: Scepter of Harvests"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1860EAFFEBADFE7D"]
+			hide_dependency_lines: false
+			id: "772E0ED8B0531BF5"
+			rewards: [{
+				id: "7084A9E7AFD7A48D"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ECC324424B7ED17"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:aegis"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.aegis: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.aegis: 1b
+						fallback_init: 1b
+						item_stack_id: 4348965837550941184L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Harvests: Aegis"
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7218AAF64F8C1C1F"]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:redemption"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.redemption: 1b
+					item_stack_id: 6438075089858415616L
+					mod_init_item.amethyst_imbuement.redemption: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:saints_pact"
+						}
+						{
+							modifier_id: "amethyst_imbuement:saints_grace"
+						}
+						{
+							modifier_id: "amethyst_imbuement:enduring"
+						}
+					]
+				}
+			}
+			id: "780FD16A4C8DBA79"
+			size: 1.25d
+			subtitle: "Specialization: Healing and Support"
+			tasks: [{
+				id: "2A34613E8DA0D5B1"
+				title: "The Path of the Redemtion"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A6A28BA748769EA"]
+			description: ["Modifiers: Champion of the Meek, Smiting, Enduring."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_the_paladin"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_the_paladin: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:protective"
+						}
+						{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}
+					]
+				}
+			}
+			id: "66426DA55EE8F084"
+			tasks: [{
+				id: "11A0155E8DAA39C4"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Enduring Paladin"
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A6A28BA748769EA"]
+			description: ["Modifiers: Protective, Warrior of Light, Lesser Enduring, Graceful."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_the_vanguard"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_the_vanguard: 1b
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:smiting"
+						}
+						{
+							modifier_id: "amethyst_imbuement:graceful"
+						}
+					]
+				}
+			}
+			id: "50CE2E3C6465BE40"
+			tasks: [{
+				id: "0179D7747C49FC4E"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Enduring Vanguard"
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66426DA55EE8F084"]
+			id: "2D60968F3503BEFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "532A90F29CC297EA"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "129CABA018E2CE1F"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:enduring_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.enduring_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.enduring_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 2177471097511271424L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Paladin: Enduring Scepter"
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["50CE2E3C6465BE40"]
+			id: "6E0E01A6073CC390"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E806659228BA7BE"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7B9CC3C4003EDE92"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:enduring_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.enduring_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.enduring_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 2177471097511271424L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Vanguard: Enduring Scepter"
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2D60968F3503BEFA"]
+			id: "52D3A555A5741897"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14D3B3691F9C3B95"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "30CB066E53C08D43"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_the_paladin"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_the_paladin: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Paladin: Scepter of the Paladin"
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6E0E01A6073CC390"]
+			id: "11299CC036858A13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D1E8957F06E98AD"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5321591AA937C969"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_the_vanguard"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_the_vanguard: 1b
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+							{
+								modifier_id: "amethyst_imbuement:graceful"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Vanguard: Scepter of the Vanguard"
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52D3A555A5741897"]
+			id: "2DBDBBC274AC9C35"
+			rewards: [{
+				id: "17D61D081478C716"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44FB3A5802637B05"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:aegis"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.aegis: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.aegis: 1b
+						fallback_init: 1b
+						item_stack_id: 4348965837550941184L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Paladin: Aegis"
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["11299CC036858A13"]
+			id: "7A46281B872686FC"
+			rewards: [{
+				id: "4BA3E04931B9F2DF"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "206E9566E18CF0BD"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:aegis"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.aegis: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.aegis: 1b
+						fallback_init: 1b
+						item_stack_id: 4348965837550941184L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Vanguard: Aegis"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["202D95F81FB0A6D8"]
+			id: "7659CF6190BF89DD"
+			rewards: [{
+				id: "1E8A5280268C7A7F"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11D0D1FE0B27B299"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:aegis"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.aegis: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.aegis: 1b
+						fallback_init: 1b
+						item_stack_id: 4348965837550941184L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:protective"
+							}
+							{
+								modifier_id: "amethyst_imbuement:smiting"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Harvests: Aegis"
+			x: 13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["521269B9DBD2F8C1"]
+			id: "202D95F81FB0A6D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C34DFB9A7EC739A"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FFFF74A785673DD"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_harvests"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:animal_husbandry"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_harvests: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.scepter_of_harvests: 1b
+						fallback_init: 1b
+						item_stack_id: 838646948893077504L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:reach"
+							}
+							{
+								modifier_id: "amethyst_core:lesser_thrifty"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Harvests: Scepter of Harvests"
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0AB7EEAE8A7FA652"]
+			id: "521269B9DBD2F8C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A627C10149882FE"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "687F1D634530B255"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:enduring_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.enduring_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.enduring_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 2177471097511271424L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Harvests: Enduring Scepter"
+			x: 13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2A6A28BA748769EA"]
+			description: ["Modifiers: Protective, Smiting, Lesser Enduring, Reach."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_harvests"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:animal_husbandry"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_harvests: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.scepter_of_harvests: 1b
+					fallback_init: 1b
+					item_stack_id: 838646948893077504L
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:reach"
+						}
+						{
+							modifier_id: "amethyst_core:lesser_thrifty"
+						}
+					]
+				}
+			}
+			id: "0AB7EEAE8A7FA652"
+			tasks: [{
+				id: "19DAB428CBA7387B"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Enduring Harvests"
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["780FD16A4C8DBA79"]
+			description: ["Modifiers: Lesser Enduring, Graceful, Saints Grace, Saints Pact."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_the_pacifist"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:bedazzle"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+					fallback_init: 1b
+					item_stack_id: 5160662234081388544L
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:healers_grace"
+						}
+						{
+							modifier_id: "amethyst_imbuement:healers_pact"
+						}
+					]
+				}
+			}
+			id: "756A7569AB7C413B"
+			tasks: [{
+				id: "6C8AAFB3387CE960"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Graceful Pacifism"
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["756A7569AB7C413B"]
+			id: "0D9AD2B8C136D88E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "206EB3472907F809"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B2ED91B5C1BABD4"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:graceful_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.graceful_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.graceful_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 3440519216511449088L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:graceful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Pacifism: Graceful Scepter"
+			x: 14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4CD556B70C01DA4D"]
+			id: "3B3D22EB73701768"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F74112899E811B2"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3CDF4BCC73CD05BA"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:graceful_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.graceful_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.graceful_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 3440519216511449088L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:graceful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Cleric: Graceful Scepter"
+			x: 15.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["780FD16A4C8DBA79"]
+			description: ["Modifiers: Lesser Enduring, Graceful, Healing, Healers Grace, Healers Pact."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:clerics_scepter"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:minor_heal"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.clerics_scepter: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.clerics_scepter: 1b
+					fallback_init: 1b
+					item_stack_id: 4128143807903120384L
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:healing"
+					}]
+				}
+			}
+			id: "4CD556B70C01DA4D"
+			tasks: [{
+				id: "7E66099F211B4002"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Graceful Cleric"
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15A864ED4B7331C8"]
+			id: "668A239FFA5B5194"
+			rewards: [{
+				id: "50060600FCC5D30E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D795F947402F01"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:redemption"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.redemption: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.redemption: 1b
+						fallback_init: 1b
+						item_stack_id: 1114068049675153408L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Pacifism: Redemption"
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0D9AD2B8C136D88E"]
+			id: "15A864ED4B7331C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65AA1D129D94949B"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A1B509E62B5F01B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_the_pacifist"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:bedazzle"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+						fallback_init: 1b
+						item_stack_id: 5160662234081388544L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Pacifism: Scepter of the Pacifist"
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["31B6A75189D46CE2"]
+			id: "17D3A24267BFDA48"
+			rewards: [{
+				id: "1C5CC97ED077F211"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BC1B98A31D8C612"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:redemption"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.redemption: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.redemption: 1b
+						fallback_init: 1b
+						item_stack_id: 1114068049675153408L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Cleric: Redemption"
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B3D22EB73701768"]
+			id: "31B6A75189D46CE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CA29C6DE954BEAC"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3AB7414610BF47F2"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:clerics_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:minor_heal"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.clerics_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.clerics_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 4128143807903120384L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:healing"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Cleric: Clerics Scepter"
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5450235F365037AF"]
+			id: "760D9431983674A5"
+			rewards: [{
+				id: "5C5BB33FAAE4A8A9"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C15F59465C67760"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:redemption"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.redemption: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.redemption: 1b
+						fallback_init: 1b
+						item_stack_id: 1114068049675153408L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Bard: Redemption"
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5974988E62D2A662"]
+			id: "0966171118D111FC"
+			rewards: [{
+				id: "7AF60FE4549B1E55"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65E68F2131BB21A9"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:redemption"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.redemption: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.redemption: 1b
+						fallback_init: 1b
+						item_stack_id: 1114068049675153408L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Pacifism: Redemption"
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26D2945E2530F285"]
+			id: "5450235F365037AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67E55FB33CE743E5"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "70DDEF114C6024AE"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:bardic_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:inspiring_song"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.bardic_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.bardic_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 1201883919913097216L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+							{
+								modifier_id: "amethyst_core:attuned"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Bard: Bardic Scepter"
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6804E80E04866188"]
+			id: "5974988E62D2A662"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CF36330F1431AEF"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0B87DC137BB595B9"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:scepter_of_the_pacifist"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:bedazzle"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+						fallback_init: 1b
+						item_stack_id: 5160662234081388544L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Pacifism: Scepter of the Pacifist"
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["30782349C973B8F0"]
+			id: "26D2945E2530F285"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A1AFFB8EE1BEC81"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6DFEC7CFDC81169E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:graceful_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.graceful_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.graceful_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 3440519216511449088L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:graceful"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Graceful Bard: Graceful Scepter"
+			x: 16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4730FCFEFE982F55"]
+			id: "6804E80E04866188"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37BBE9A7A12D0DE1"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0436B1E06C4EEA7A"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:enduring_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.enduring_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.enduring_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 2177471097511271424L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Pacifism: Enduring Scepter"
+			x: 17.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["780FD16A4C8DBA79"]
+			description: ["Modifiers: Enduring, Graceful, Attuned, Healers Grace, Healers Pact."]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:bardic_scepter"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:inspiring_song"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.bardic_scepter: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.bardic_scepter: 1b
+					fallback_init: 1b
+					item_stack_id: 1201883919913097216L
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}
+						{
+							modifier_id: "amethyst_core:attuned"
+						}
+					]
+				}
+			}
+			id: "30782349C973B8F0"
+			tasks: [{
+				id: "02205A423B5D8978"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Graceful Bard"
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["780FD16A4C8DBA79"]
+			description: ["Modifiers: Enduring, Saints Grace, Saints Pact."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:scepter_of_the_pacifist"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:bedazzle"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.scepter_of_the_pacifist: 1b
+					fallback_init: 1b
+					item_stack_id: 5160662234081388544L
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:healers_grace"
+						}
+						{
+							modifier_id: "amethyst_imbuement:healers_pact"
+						}
+					]
+				}
+			}
+			id: "4730FCFEFE982F55"
+			tasks: [{
+				id: "081F63D36D2FF3DE"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Enduring Pacifism"
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["780FD16A4C8DBA79"]
+			description: ["Modifiers: Enduring, Healing, Healers Grace, Healers Pact."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:clerics_scepter"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:minor_heal"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.clerics_scepter: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.clerics_scepter: 1b
+					fallback_init: 1b
+					item_stack_id: 4128143807903120384L
+					modifiers: [{
+						modifier_id: "amethyst_imbuement:healing"
+					}]
+				}
+			}
+			id: "54FA63E0B192AA71"
+			tasks: [{
+				id: "639EEF6131CE365B"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Enduring Cleric"
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["780FD16A4C8DBA79"]
+			description: ["Modifiers: Greater Enduring, Attuned, Healers Grace, Healers Pact."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:bardic_scepter"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}
+						{
+							id: "amethyst_imbuement:inspiring_song"
+							lvl: 1s
+						}
+					]
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.amethyst_imbuement.bardic_scepter: 1b
+					active_enchant_id: "amethyst_imbuement:magic_missile"
+					enchant_init_item.amethyst_imbuement.bardic_scepter: 1b
+					fallback_init: 1b
+					item_stack_id: 1201883919913097216L
+					modifiers: [
+						{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}
+						{
+							modifier_id: "amethyst_core:attuned"
+						}
+					]
+				}
+			}
+			id: "74211CD38F1516B1"
+			tasks: [{
+				id: "60373BDE8ED96FDE"
+				title: "This One"
+				type: "checkmark"
+			}]
+			title: "Enduring Bard"
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54FA63E0B192AA71"]
+			id: "3F5D484A641AFF9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0725D3EBAA049123"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "729B32ADACF8B58B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:enduring_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.enduring_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.enduring_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 2177471097511271424L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Cleric: Enduring Scepter"
+			x: 18.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3A5B52EF4D33E0F2"]
+			id: "0F6986B0A3591132"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27C4F323F4A0B73A"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "77AD64076F9F4FFD"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:bardic_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:inspiring_song"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.bardic_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.bardic_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 1201883919913097216L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+							{
+								modifier_id: "amethyst_core:attuned"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Bard: Bardic Scepter"
+			x: 19.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3F5D484A641AFF9B"]
+			id: "35D97DD65DDC94AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B0B02297130FE72"
+				table_id: 1489122369075493437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3FE7F8DF5F47530C"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:clerics_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "amethyst_imbuement:magic_missile"
+								lvl: 1s
+							}
+							{
+								id: "amethyst_imbuement:minor_heal"
+								lvl: 1s
+							}
+						]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.clerics_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.clerics_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 4128143807903120384L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:healing"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Cleric: Clerics Scepter"
+			x: 18.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["74211CD38F1516B1"]
+			id: "3A5B52EF4D33E0F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65D6192917F11604"
+				table_id: 4025136392042568045L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3A72918198675187"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:enduring_scepter"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.enduring_scepter: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.enduring_scepter: 1b
+						fallback_init: 1b
+						item_stack_id: 2177471097511271424L
+						modifiers: [{
+							modifier_id: "amethyst_imbuement:lesser_enduring"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Bard: Enduring Scepter"
+			x: 19.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35D97DD65DDC94AB"]
+			id: "6365A47CDB6A39C4"
+			rewards: [{
+				id: "4B201268795CC38F"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A6542850D61E04"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:redemption"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.redemption: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.redemption: 1b
+						fallback_init: 1b
+						item_stack_id: 1114068049675153408L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Cleric: Redemption"
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0F6986B0A3591132"]
+			id: "5FFE319769524181"
+			rewards: [{
+				id: "45DEA887B2446CD0"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:book_of_mythos"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05BA23A6A8C3DA46"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:redemption"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.amethyst_imbuement.redemption: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.amethyst_imbuement.redemption: 1b
+						fallback_init: 1b
+						item_stack_id: 1114068049675153408L
+						modifiers: [
+							{
+								modifier_id: "amethyst_imbuement:healers_pact"
+							}
+							{
+								modifier_id: "amethyst_imbuement:healers_grace"
+							}
+							{
+								modifier_id: "amethyst_imbuement:lesser_enduring"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Enduring Bard: Redemption"
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4B58F47494B2D94D"
+				"67C570E1A26E0F60"
+				"0C10528C6A3837C8"
+				"0D60D1B1338BE038"
+				"258259AE99636E1B"
+				"009ECE1902881357"
+				"2DBDBBC274AC9C35"
+				"71A5AD6495062EC3"
+				"7659CF6190BF89DD"
+				"772E0ED8B0531BF5"
+				"60A16B79033632CC"
+				"7A46281B872686FC"
+				"7C52FDE978FDB27F"
+				"2DAA3DD6FCED8702"
+				"060BDEEC963A590E"
+				"4EA9EBE2C043EDEE"
+				"495DCD03E5715CCC"
+				"7D21A3C1B4CEF666"
+				"2D15DC10E70B2C83"
+				"5B9EF2D487521AE1"
+				"3AA84C85A5BA8495"
+				"1E389AD3BB11019B"
+				"12D25730662F605B"
+				"6B8BD79FB835EC37"
+				"0E90DB571E78BD27"
+				"13DB68F22E66C0BA"
+				"4E318FE77E6F14AB"
+				"0F0CA1C335A7982A"
+				"06FF8D088343B6C2"
+				"2D78C3B733DC601E"
+				"6365A47CDB6A39C4"
+				"0966171118D111FC"
+				"760D9431983674A5"
+				"668A239FFA5B5194"
+				"5FFE319769524181"
+				"17D3A24267BFDA48"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "imbued_gear:cosmos"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+					ac_item.imbued_gear.cosmos: 1b
+					modifiers: [{
+						modifier_id: "imbued_gear:cosmic"
+					}]
+				}
+			}
+			id: "7525D5DE4B54662E"
+			min_required_dependencies: 1
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "You thought that you got to the end did you?"
+			tasks: [{
+				id: "43490AD4E8CC8074"
+				title: "Begin"
+				type: "checkmark"
+			}]
+			title: "The 7th Scepter"
+			x: 1.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7525D5DE4B54662E"]
+			id: "1BE2C449D49D2462"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					count: 4
+					id: "5F92AF93EDB295D9"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:book_of_tales"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3EC526E96C4AD20A"
+					item: "amethyst_imbuement:sardonyx"
+					type: "item"
+				}
+				{
+					id: "0DE39C6A1F840E86"
+					type: "xp"
+					xp: 1500
+				}
+				{
+					count: 2
+					id: "3BB7B8B324451785"
+					item: "amethyst_imbuement:glistering_key"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 3.5d
+			tasks: [{
+				id: "377C2534E4B48036"
+				item: {
+					Count: 1
+					id: "imbued_gear:cosmos"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "amethyst_imbuement:magic_missile"
+							lvl: 1s
+						}]
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+						ac_item.imbued_gear.cosmos: 1b
+						active_enchant_id: "amethyst_imbuement:magic_missile"
+						enchant_init_item.imbued_gear.cosmos: 1b
+						fallback_init: 1b
+						item_stack_id: 6336198809786991616L
+						last_used_list: {
+							"amethyst_imbuement:magic_missile_last_used": 3836578L
+						}
+						modifiers: [{
+							modifier_id: "imbued_gear:cosmic"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "The Legendary Cosmos"
+			x: 1.0d
+			y: -24.0d
+		}
+	]
+	title: "Scepters"
+}

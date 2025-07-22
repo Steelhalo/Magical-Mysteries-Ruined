@@ -1,0 +1,377 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "27E0B6F74F5F9F55"
+	icon: "minecraft:grass_block"
+	id: "6425DD8D00ABD314"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "4486D2A57461A805"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "5D6F6E2CB70D4AC0"
+				title: "Welcome to the Overworld"
+				type: "dimension"
+			}]
+			title: "Welcome to the Overworld"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DACDE579B199325"]
+			id: "5AB36DCA1BDEB852"
+			rewards: [{
+				count: 10
+				id: "3FC8401C3AC7ED78"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "this is an upgrade for your picaxe"
+			tasks: [{
+				id: "5B3D536C2EC90B2B"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Getting An Upgrade"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["412FB581CC701865"]
+			description: ["Raids waves vairy in different difficulties: easy has 3, normal has 5 and hard has 7! so BE PREAPARED!"]
+			id: "018958F1AEED47E4"
+			rewards: [
+				{
+					id: "4714F9C0E1856ABE"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0A38F27CB6898A87"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6559CDBCC4C18989"
+				type: "advancement"
+			}]
+			x: -2.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["018958F1AEED47E4"]
+			id: "4856515EF6A3F44F"
+			tasks: [{
+				id: "61F0EACC1771B221"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4486D2A57461A805"]
+			id: "1DACDE579B199325"
+			rewards: [{
+				count: 5
+				id: "26AF5B4C089FBD52"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "014331D7A2DBB4D7"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "one picaxe"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5AB36DCA1BDEB852"
+				"09BAF8EB694FA4C0"
+			]
+			id: "75AE7DFEDCE2157C"
+			rewards: [{
+				count: 2
+				id: "6812E48164FF45F0"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5889E711E3FEE962"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"75AE7DFEDCE2157C"
+				"480AB48A57C9FF3E"
+			]
+			id: "0F9F6D65C6324A6B"
+			rewards: [{
+				count: 2
+				id: "13621151CD6DB5F0"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C87AFBAA352BE05"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"0F9F6D65C6324A6B"
+				"480AB48A57C9FF3E"
+			]
+			id: "3BD110900530FFFA"
+			rewards: [{
+				id: "498AA93BF0D796FC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2D1A0C8163AEC98F"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			id: "6D825257AAD19639"
+			rewards: [{
+				id: "1D0ACEE5AEAA8685"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:prismarine_bricks"
+				id: "69B66F2F3057553C"
+				structure: "minecraft:monument"
+				type: "structure"
+			}]
+			title: "Don't Drown"
+			x: 4.5d
+			y: -5.25d
+		}
+		{
+			dependencies: [
+				"1C3A3AF55BA0F59C"
+				"40671836DD89429D"
+			]
+			id: "1B333B3B1DA8DA96"
+			rewards: [{
+				id: "59695DCCA24C90CE"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "67FC32EA55CEB34F"
+				structure: "betterstrongholds:stronghold"
+				title: "Find the Stronghold."
+				type: "structure"
+			}]
+			title: "Enter the Dragons Labrinth."
+			x: -6.0d
+			y: -14.75d
+		}
+		{
+			dependencies: ["0F9F6D65C6324A6B"]
+			id: "4918A54AA18A602E"
+			rewards: [
+				{
+					id: "25364D6E532A11AC"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72B8D01296291316"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "32AE531CE0720FC7"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -12.25d
+		}
+		{
+			dependencies: ["5AB36DCA1BDEB852"]
+			id: "09BAF8EB694FA4C0"
+			rewards: [{
+				id: "6CBECDDDA14952F8"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "29C1F38E9BA88BF2"
+				item: { Count: 3, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["09BAF8EB694FA4C0"]
+			id: "1B8419B437F561A5"
+			rewards: [{
+				id: "563C07AE5DB62E54"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A43CF51445C4E57"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1B8419B437F561A5"
+				"4918A54AA18A602E"
+			]
+			description: ["You dont even need a Diamond Pickaxe or Obsidian, just a bucket Water and a Lava Pool."]
+			id: "40671836DD89429D"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "11C4A309FEC27DFB"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6C9836DDB073C331"
+				type: "dimension"
+			}]
+			title: "Start of the Nether"
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B333B3B1DA8DA96"]
+			icon: "minecraft:end_stone_bricks"
+			id: "435CB2438B78F307"
+			subtitle: "Good Luck."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "06782E2ACB07A95B"
+				title: "Enter the Dark Abyss of the End."
+				type: "dimension"
+			}]
+			title: "Enter the Dark."
+			x: -9.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["75AE7DFEDCE2157C"]
+			id: "480AB48A57C9FF3E"
+			rewards: [{
+				id: "4510740E8EFF5636"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "435E00B6180D896D"
+				item: { Count: 3, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["09BAF8EB694FA4C0"]
+			id: "412FB581CC701865"
+			tasks: [{
+				id: "3616D343874545CB"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -6.25d
+		}
+	]
+	title: "Overworld"
+}

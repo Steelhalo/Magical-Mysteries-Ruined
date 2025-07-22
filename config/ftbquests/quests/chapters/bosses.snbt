@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "43A50DDBE8B8C1E8"
+	icon: "minecraft:nether_star"
+	id: "0894AE7E4F4B6E49"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "2CEB524899A03583"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "21FAF0ED848C41AC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.25d
+			y: 0.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "22B4E402ECC61A4E"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "64E98A1E6D97CE74"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.25d
+			y: 0.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:ancient_anima"
+			id: "6D7237B16EDB0335"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "41F5E90E41342480"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.25d
+			y: 1.5d
+		}
+		{
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "36347F4D870FADC2"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "7FA647D2A43E32AE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.25d
+			y: 1.5d
+		}
+	]
+	title: "Bosses"
+}

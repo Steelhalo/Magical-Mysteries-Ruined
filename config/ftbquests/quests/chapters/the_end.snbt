@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "27E0B6F74F5F9F55"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:end_portal_frame"
+	id: "34BCC5936E6617E9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["435CB2438B78F307"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "782E714E04029081"
+			rewards: [{
+				id: "67561D1C0E02A5D5"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "0F37B8513BBE5051"
+				title: "Enter the End"
+				type: "dimension"
+			}]
+			title: "The Ending has Begun."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["782E714E04029081"]
+			description: ["Resummoning the dragon will still spawn a egg even if you have one already."]
+			id: "6ADE9F9D70A5E9B4"
+			size: 1.25d
+			subtitle: "Scrambled egg? Anyone?"
+			tasks: [{
+				id: "0470D58424F9F50F"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Obtain the Dragon egg."
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ADE9F9D70A5E9B4"]
+			id: "0223CDCC02A7380A"
+			rewards: [{
+				count: 5
+				id: "57D13805B2CFD3DE"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "172F9C0A44B6F3E1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0223CDCC02A7380A"]
+			id: "676031C3081D8D4B"
+			tasks: [{
+				id: "5999F17458B11A79"
+				structure: "#minecraft:end_city"
+				title: "Find a end city."
+				type: "structure"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["676031C3081D8D4B"]
+			id: "5F37422BABF8AF4E"
+			rewards: [{
+				count: 25
+				id: "0D6769ECCCDCC1D2"
+				item: {
+					Count: 1
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39C3BD0CEFAA4471"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+	]
+	title: "The End"
+}

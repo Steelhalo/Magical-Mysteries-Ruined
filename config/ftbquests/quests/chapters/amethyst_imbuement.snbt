@@ -1,0 +1,690 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "amethyst_imbuement"
+	group: "550DC794E0349B85"
+	icon: "amethyst_imbuement:imbuing_table"
+	id: "16EB3AB489375F86"
+	images: [{
+		height: 2.0d
+		image: "hexcasting:item/charged_amethyst"
+		rotation: 0.0d
+		width: 2.0d
+		x: -1.5d
+		y: 3.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "amethyst_imbuement:glistering_tome"
+			id: "72BFE5E143A2511A"
+			rewards: [{
+				id: "474D5DEC4D5F4709"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Always Read the Glistering Tome for more information."
+			tasks: [
+				{
+					id: "7F0488FDD7723C31"
+					title: "Begin"
+					type: "checkmark"
+				}
+				{
+					id: "5DF648C74C64A59B"
+					item: "amethyst_imbuement:glistering_tome"
+					type: "item"
+				}
+			]
+			title: "The Start of Something Magical"
+			x: -1.5d
+			y: 6.375d
+		}
+		{
+			dependencies: ["72BFE5E143A2511A"]
+			description: ["Get 4 Crying Obsidian from ruined portals or using the staff of tranforation. (see Quest [blank] in gobber)"]
+			id: "632139315F44265F"
+			rewards: [{
+				id: "6EB7A5C68299DC57"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "More Purple"
+			tasks: [{
+				count: 4L
+				id: "2592B6EF2FBF0359"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			title: "The Saddest of Things"
+			x: -3.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72BFE5E143A2511A"]
+			description: ["The 2nd tier 0 gem."]
+			icon: "minecraft:quartz"
+			id: "618E8871BB905FAA"
+			rewards: [{
+				id: "42A6AE60DF7054F5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "You Might get Something Else too..."
+			tasks: [{
+				count: 5L
+				id: "634F12EC83CA1630"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "The 2nd Starter Gemstone"
+			x: -0.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72BFE5E143A2511A"]
+			description: ["1 of 2 tier 0 gems."]
+			id: "4DEA168E6F18D5DD"
+			rewards: [{
+				id: "5926BFCF3BB2C50B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "33896DB0FEB3DAAD"
+				item: "minecraft:amethyst_shard"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Sharp, Purple and Magical"
+			x: -2.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72BFE5E143A2511A"]
+			description: ["Bonemeal 2 block tall flowers to get a unlimited supply and the small flowers all spawn in plains."]
+			id: "5551C78931E123DC"
+			rewards: [
+				{
+					id: "28A0BC7989B3BF30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "7D55B0F0DF4B3419"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "752C7C2058957E4E"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					id: "2D333BB3ED21473F"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					id: "01CCB1C3AF9EAE9E"
+					item: "minecraft:oxeye_daisy"
+					type: "item"
+				}
+				{
+					id: "723AF215F8EA9600"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+			]
+			title: "Flower are Magical too Right?"
+			x: 0.75d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4DEA168E6F18D5DD"
+				"632139315F44265F"
+				"3BD110900530FFFA"
+				"5551C78931E123DC"
+				"618E8871BB905FAA"
+			]
+			description: ["The Imbuing Table also lets you enchant up to lvl 60 with more bookshelves."]
+			id: "4D40AEBFB2D4C952"
+			rewards: [{
+				id: "4ECB2DBEA80AE527"
+				type: "xp"
+				xp: 30
+			}]
+			size: 2.0d
+			subtitle: "Orange Carpet?"
+			tasks: [{
+				id: "7518BA2C00826F4F"
+				item: "amethyst_imbuement:imbuing_table"
+				type: "item"
+			}]
+			title: "The Other Enchanting Table"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4F9F7E9DB1F337A7"
+				"4D40AEBFB2D4C952"
+				"75E29EFA73BFC69E"
+			]
+			description: [
+				"This is where it gets complex as you need to pick an upgrade path for your scepter."
+				""
+				"There are 7 options to choose from:"
+				"&4Lethality&r, &2Redemption&r, &1Resonance&r, &cEquinox&r, &aAegis&r, &9Sojourn&r and &l&k.&k.&k.&k.&k.&k.&k.&k.&k.&r."
+				""
+				"All of these also have &lmodifiers&r depending on which &lpath&r and &lsub path&r you take."
+				""
+				"&lNote:&r Almost all modifiers are good to the user. Read the Glistering Tome to learn what each modifier does."
+				""
+				"See more on next page."
+				"{@pagebreak}"
+				""
+				"There are 3 kinds of magic: &4Fury&r which focuses on raw and elemental damage. &1Wit&r which focuses on summoning and qol(eg; travel, building etc) and &2Grace&r which focuses on healing and tanking."
+				""
+				"Check which &lFinal scepter&r you want to go for (you can have more than 1) and check which &lsub route&r you want."
+				""
+				"&lNote:&r The Glistering Tome will always have more in depth info if you want that."
+				"{image:magical_addons:textures/upgrade_path.png width:187 height:102 align:center fit:true}"
+			]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:opaline_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+				}
+			}
+			id: "4A7A95E3252DEB4F"
+			rewards: [{
+				id: "4AE58A00FE7FED71"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Read the Book"
+			tasks: [{
+				id: "212C920989F2900B"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:opaline_scepter"
+					tag: {
+						Damage: 0
+						FURY_lvl: 1
+						FURY_xp: 0
+						GRACE_lvl: 1
+						GRACE_xp: 0
+						WIT_lvl: 1
+						WIT_xp: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Your First Scepter"
+			x: -1.5d
+			y: -4.875d
+		}
+		{
+			dependencies: ["2B988A02759300E6"]
+			id: "4F9F7E9DB1F337A7"
+			rewards: [{
+				count: 5
+				id: "0710AFC77F0CD7E0"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "oooo Shiny"
+			tasks: [{
+				id: "0E7AAA999E7384C0"
+				item: "amethyst_imbuement:beryl_copper_ingot"
+				type: "item"
+			}]
+			title: "The Shinier Copper"
+			x: -5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2B988A02759300E6"]
+			id: "39FF74F4AD81FB8C"
+			rewards: [{
+				id: "15A1242A755271DE"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64547D014A07030A"
+				item: "amethyst_imbuement:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4F9F7E9DB1F337A7"]
+			id: "048FB288A9DB7DB8"
+			rewards: [{
+				id: "6825BA66BF61121D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5980A33B3468C27F"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:copper_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["4F9F7E9DB1F337A7"]
+			id: "01C8FC08067DFF9C"
+			rewards: [{
+				id: "0563EFF09EEC2F34"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "49F06F02945B3D46"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:copper_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["4F9F7E9DB1F337A7"]
+			id: "6513F2C7162A5227"
+			rewards: [{
+				id: "6E197B68DA9D88AF"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "26339FE4BE661315"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:copper_headband"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["39FF74F4AD81FB8C"]
+			id: "62033722EBFD5830"
+			rewards: [{
+				id: "2394606BA8146EAC"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "34F1E7576E50A6D4"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:steel_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["39FF74F4AD81FB8C"]
+			id: "7A71325FD00C8F3B"
+			rewards: [{
+				id: "2DAE411D50353C96"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "2BB68D63736E2AC5"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:steel_headband"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["39FF74F4AD81FB8C"]
+			id: "678458A79D35C333"
+			rewards: [{
+				id: "264853AAAD22C168"
+				type: "xp"
+				xp: 35
+			}]
+			tasks: [{
+				id: "353D9A2B2D7E279D"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:steel_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.25d
+		}
+		{
+			dependencies: [
+				"048FB288A9DB7DB8"
+				"62033722EBFD5830"
+				"6DAD858A07DAA1EB"
+			]
+			description: [
+				"These let you get more effects by imbuing them."
+				""
+				"&lNote:&r if you inbue steel trinkets to get these you will lose +0.5 armor and get +3% speed insted."
+			]
+			id: "5C2707529E89C956"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "1C61976D6911E1B4"
+				type: "xp"
+				xp: 65
+			}]
+			tasks: [{
+				id: "079B5DDD92ACD98E"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:imbued_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6513F2C7162A5227"
+				"7A71325FD00C8F3B"
+				"6DAD858A07DAA1EB"
+			]
+			description: [
+				"These let you get more effects by imbuing them."
+				""
+				"&lNote:&r if you inbue steel trinkets to get these you will lose +0.5 armor and get +3% speed insted."
+			]
+			id: "45D77C96934C8991"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "2E1EA21EB0669B1C"
+				type: "xp"
+				xp: 65
+			}]
+			tasks: [{
+				id: "690BA27B44F933AF"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:imbued_headband"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"01C8FC08067DFF9C"
+				"678458A79D35C333"
+				"6DAD858A07DAA1EB"
+			]
+			description: [
+				"These let you get more effects by imbuing them."
+				""
+				"&lNote:&r if you inbue steel trinkets to get these you will lose +0.5 armor and get +3% speed insted."
+			]
+			id: "7290DC64541B444B"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "2A764573A6BB72F8"
+				type: "xp"
+				xp: 65
+			}]
+			tasks: [{
+				id: "27944769ACB42692"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:imbued_amulet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A7A95E3252DEB4F"]
+			icon: {
+				Count: 1
+				id: "amethyst_imbuement:lustrous_scepter"
+				tag: {
+					Damage: 0
+					FURY_lvl: 1
+					FURY_xp: 0
+					GRACE_lvl: 1
+					GRACE_xp: 0
+					WIT_lvl: 1
+					WIT_xp: 0
+				}
+			}
+			id: "4961BB27BE4EC970"
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [{
+				id: "6C1E8A548CE60513"
+				title: "Lets Go"
+				type: "checkmark"
+			}]
+			title: "Start Your Scepter Journey"
+			x: -2.625d
+			y: -8.3125d
+		}
+		{
+			dependencies: [
+				"077DD32D9F6D1E27"
+				"365C7AC71C5EA164"
+				"6DAD858A07DAA1EB"
+			]
+			description: ["Wards act as shields. The Copper and Steel Wards are also an Imbuing ingredient."]
+			id: "0ACE43ABFE775ECA"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "62607C52003A1143"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:imbued_ward"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F9F7E9DB1F337A7"]
+			description: ["Wards act as shields. The Copper and Steel Wards are also an Imbuing ingredient."]
+			id: "077DD32D9F6D1E27"
+			tasks: [{
+				id: "51C4B7AF59F002A3"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:copper_ward"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["39FF74F4AD81FB8C"]
+			description: ["Wards act as shields. The Copper and Steel Wards are also an Imbuing ingredient."]
+			id: "365C7AC71C5EA164"
+			tasks: [{
+				id: "09CD0C8FD3E5CB6A"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:steel_ward"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"4F9F7E9DB1F337A7"
+				"39FF74F4AD81FB8C"
+			]
+			description: [
+				"Imbued Items gives a stat boost, debuff or nothing depending in what item you use in the bottom slot of the imbuing table."
+				""
+				"Tigers Eye: +15% Knockback Resistance,"
+				""
+				"Energetic Opal: +3% Movement Speed,"
+				""
+				"Glowing Fragment: -3% Spell Mana Cost,"
+				""
+				"Brilliant Diamond: -7.5% Spell Mana Cost,"
+				""
+				"Accursed Figurine: +10% Damage Taken by User(this is a debuff),"
+				""
+				"Malachite Figurine: +7.5% Spell Effect Duration,"
+				""
+				"Resonant Rod: +5% Spell Damage,"
+				""
+				"Heartstone: +1 Spell Effect Amplifier,"
+				""
+				"Lustrous Sphere: +7.5% Spell Levels,"
+				""
+				"Knowledge Powder: +5% Basic xp Gain,"
+				""
+				"Golden Heart: +12.5% Spell Range and AOE,"
+				""
+				"Copper Ward: +2.5% Automatic Shielding Chance,"
+				""
+				"Steel Ward: +1.25 Armor,"
+				""
+				"Warding Candle: +0.5 Armor Toughness,"
+				""
+				"Block of Steel: +0.75 Armor,"
+				""
+				"Block of Beryllium Copper: +5% Attack Speed,"
+				""
+				"Glistening Ice: -3.5% Spell Cooldown."
+			]
+			id: "6DAD858A07DAA1EB"
+			min_required_dependencies: 1
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5DF9798ED90C2163"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Imbued Trinkets"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D40AEBFB2D4C952"]
+			icon: "amethyst_imbuement:accursed_figurine"
+			id: "2B988A02759300E6"
+			rewards: [{
+				description: ""
+				icon: "amethyst_imbuement:malachite_figurine"
+				id: "5402F6F1CF50BCDF"
+				title: "Ingrediants Chapter Unlock"
+				type: "toast"
+			}]
+			shape: "hexagon"
+			size: 1.35d
+			subtitle: "Where are my Items?"
+			tasks: [{
+				id: "7F054D58CFD9AF1A"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Ingrediants Tree"
+			x: -3.7125000000000004d
+			y: -1.6875d
+		}
+		{
+			dependencies: [
+				"59D484FE969AA6D8"
+				"50A90E87D8E6BF35"
+				"2190881249DB6C5C"
+				"779998182B188009"
+				"63766B2769B7CA41"
+				"1071E4C6E7E76D57"
+				"3BC034CEB2C960AE"
+				"641F41B3E7251DBA"
+				"6DAD858A07DAA1EB"
+			]
+			hide_until_deps_visible: true
+			id: "1DB2E16420F19A57"
+			tasks: [{
+				id: "6AC2C3DBB4CFBE03"
+				item: {
+					Count: 1
+					id: "amethyst_imbuement:spellcasters_focus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: -1.5d
+		}
+	]
+	title: "Amethyst Imbuement"
+}
