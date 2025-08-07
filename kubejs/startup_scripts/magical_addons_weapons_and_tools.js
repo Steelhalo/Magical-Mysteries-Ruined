@@ -80,7 +80,7 @@ StartupEvents.registry('item', event => {
     event.create('runic_whip_black', 'sword').tier('iron').maxDamage(258).texture('magical_addons:item/runic_whip/runic_whip_black').attackDamageBaseline(10).speedBaseline(-3.3).displayName('Black Runic Whip').tag('magical_addons:runic_whip'),
     event.create('runic_whip_brown', 'sword').tier('iron').maxDamage(258).texture('magical_addons:item/runic_whip/runic_whip_brown').attackDamageBaseline(10).speedBaseline(-3.3).displayName('Brown Runic Whip').tag('magical_addons:runic_whip'),
     event.create('runic_whip', 'sword').tier('iron').maxDamage(258).texture('magical_addons:item/runic_whip/runic_whip').attackDamageBaseline(10).speedBaseline(-3.3).tag('magical_addons:runic_whip')
-})
+}),
 
 //Tools
 StartupEvents.registry('item', event => {
