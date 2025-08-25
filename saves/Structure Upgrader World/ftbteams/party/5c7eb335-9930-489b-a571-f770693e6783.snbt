@@ -1,0 +1,33 @@
+{
+	id: "5c7eb335-9930-489b-a571-f770693e6783"
+	type: "party"
+	owner: "b4706cdb-e815-46fe-9a1d-b80587a00f35"
+	ranks: {
+		c804f2a9-9ec5-4607-b1c5-11a97bd30632: "member"
+		b4706cdb-e815-46fe-9a1d-b80587a00f35: "owner"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 1b
+		"ftbchunks:block_edit_and_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+		"ftbteams:display_name": ""
+		"ftbteams:description": ""
+		"ftbteams:color": "#F3FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1742136176458L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"steelhaloyt\"}]}" }
+		{ from: "b4706cdb-e815-46fe-9a1d-b80587a00f35", date: 1742136176466L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"ogaj59225\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1742136179818L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"ogaj59225\"}]}" }
+	]
+	extra: { }
+}

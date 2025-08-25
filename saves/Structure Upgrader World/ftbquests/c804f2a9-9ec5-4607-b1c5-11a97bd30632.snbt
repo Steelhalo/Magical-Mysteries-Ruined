@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "c804f2a99ec54607b1c511a97bd30632"
+	name: "ogaj59225#c804f2a9"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		5D6F6E2CB70D4AC0: 1
+	}
+	started: {
+		5D6F6E2CB70D4AC0: 1742135005705L
+		4486D2A57461A805: 1742135005705L
+		0000000000000001: 1742135005705L
+		6425DD8D00ABD314: 1742135005705L
+	}
+	completed: {
+		5D6F6E2CB70D4AC0: 1742135005711L
+		4486D2A57461A805: 1742135005711L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}
