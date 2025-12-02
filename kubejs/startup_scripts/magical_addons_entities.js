@@ -16,11 +16,11 @@ StartupEvents.registry('entity_type', event => {
     })
     .shouldRenderAtSqrDistance(context => {
         const { entity, distanceToPlayer } = context;
-        return distanceToPlayer < 300;
+        return distanceToPlayer < 100;
     })
     .onHitBlock(context => {
         const { entity, result } = context;
-        entity.getLevel().addParticle('minecraft:campfire_cosy_smoke', entity.getX(), entity.getY(), entity.getZ(), 0, 0, 0);
+        entity.getLevel().addParticle('minecraft:end_rod', entity.getX(), entity.getY(), entity.getZ(), 0, 0.05, 0);
     })
     .onHitEntity(context => {
         const { entity, result } = context;
@@ -50,8 +50,9 @@ StartupEvents.registry('entity_type', event => {
         .item(item => {
             item.maxStackSize(64);
         })
+        .noItem()
         .textureLocation(entity => {
-            return "magical_addons:item/test_arrow.png"
+            return "magical_addons:item/test_arrow"
         })
         .setDamageFunction(entity => {
             return true
@@ -76,7 +77,7 @@ StartupEvents.registry('entity_type', event => {
         })
         .onHitBlock(context => {
             const { entity, result } = context;
-            entity.getLevel().addParticle('minecraft:campfire_cosy_smoke', entity.getX(), entity.getY(), entity.getZ(), 0, 0, 0);
+            entity.getLevel().addParticle('minecraft:flash', entity.getX(), entity.getY(), entity.getZ(), 0, 0.01, 0);
         })
         .onHitEntity(context => {
             const { entity, result } = context;

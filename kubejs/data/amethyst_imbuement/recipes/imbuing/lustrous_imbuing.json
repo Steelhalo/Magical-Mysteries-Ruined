@@ -13,13 +13,13 @@
       "item": "amethyst_imbuement:garnet"
     },
     "craftA": {
-      "item": "minecraft:air"
+      "item": "amethyst_imbuement:pyrite"
     },
     "craftB": {
       "item": "amethyst_imbuement:brilliant_diamond"
     },
     "craftC": {
-      "item": "minecraft:air"
+      "item": "amethyst_imbuement:pyrite"
     },
     "craftD": {
       "item": "amethyst_imbuement:moonstone"
@@ -31,13 +31,13 @@
       "item": "amethyst_imbuement:moonstone"
     },
     "craftG": {
-      "item": "minecraft:air"
+      "item": "amethyst_imbuement:pyrite"
     },
     "craftH": {
       "item": "amethyst_imbuement:brilliant_diamond"
     },
     "craftI": {
-      "item": "minecraft:air"
+      "item": "amethyst_imbuement:pyrite"
     },
     "title": "Lustrous Sphere",
     "cost": 23,

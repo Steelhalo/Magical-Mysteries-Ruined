@@ -1,4 +1,5 @@
 //Blocks
+
 StartupEvents.registry('block', event => {
   event.create('unpowered_silver_block', 'basic')
     .displayName('Unpowered Silver Block')
@@ -10,4 +11,77 @@ StartupEvents.registry('block', event => {
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('minecraft:needs_iron_tool')
     .textureAll('magical_addons:block/unpowered_silver_block')
+})
+
+//Particle Blocks
+
+StartupEvents.registry('block', event => {
+  event.create('purple_drip_block', 'basic')
+    .displayName('Purple Drip Block')
+    .soundType('glass')
+    .hardness(0)
+    .resistance(0)
+    .fullBlock(true)
+    .requiresTool(false)
+    .opaque(false)
+    .renderType('cutout')
+    .textureAll('magical_addons:block/the_glass')
+    .noCollision()
+    .notSolid()
+    .noDrops()
+    .suffocating(false)
+    .viewBlocking(false)
+    .redstoneConductor(false)
+    .noValidSpawns(false)
+    .transparent(true)
+    .defaultCutout()
+    .randomTick(tick => {
+      console.log(tick);
+    })
+
+  event.create('purple_star_block', 'basic')
+    .displayName('Purple Star Block')
+    .soundType('glass')
+    .hardness(0)
+    .resistance(0)
+    .fullBlock(true)
+    .requiresTool(false)
+    .opaque(false)
+    .renderType('cutout')
+    .textureAll('magical_addons:block/the_glass')
+    .noCollision()
+    .notSolid()
+    .noDrops()
+    .suffocating(false)
+    .viewBlocking(false)
+    .redstoneConductor(false)
+    .noValidSpawns(false)
+    .transparent(true)
+    .defaultCutout()
+    .randomTick(tick => {
+      console.log(tick);
+    })
+
+    event.create('spiting_lava_particle_block', 'basic')
+    .displayName('Purple Star Block')
+    .soundType('glass')
+    .hardness(0)
+    .resistance(0)
+    .fullBlock(true)
+    .requiresTool(false)
+    .opaque(false)
+    .renderType('cutout')
+    .textureAll('magical_addons:block/the_glass')
+    .noCollision()
+    .notSolid()
+    .noDrops()
+    .suffocating(false)
+    .viewBlocking(false)
+    .redstoneConductor(false)
+    .noValidSpawns(false)
+    .transparent(true)
+    .defaultCutout()
+    .randomTick(tick => {
+      console.log(tick);
+    })
 })
