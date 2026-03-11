@@ -113,14 +113,14 @@ ClientEvents.tick(event => {
 ClientEvents.tick(event => {
     const range = 8
     const {player, player:{block:{pos}, age}, level} = event
-    if(age % 80) return;
+    if(age % 10) return;
 
     for (let dx = -range; dx <= range; dx++) {
         for (let dy = -range; dy <= range; dy++) {
             for (let dz = -range; dz <= range; dz++) {
                 let checkPos = pos.offset(dx, dy, dz)
                 let block = level.getBlock(checkPos)
-                if (block.id == "kubejs:powered_silver_block") {
+                if (block.id == "bewitchment:powered_silver_block") {
                     let face = Math.floor(Math.random() * 6) + 1
                     if (face == 1) {
                         for (let i = 0; i < 1; i++) {

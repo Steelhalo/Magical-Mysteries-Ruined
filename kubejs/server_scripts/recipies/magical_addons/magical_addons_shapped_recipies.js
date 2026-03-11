@@ -1,25 +1,25 @@
 //Shaped
 ServerEvents.recipes(event => {
     event.shaped(
-        Item.of('bewitchment:silver_block', 1),
+        Item.of('bewitchment:powered_silver_block', 1),
         [
             'AAA',
             'AAA',
             'AAA'
         ],
         {
-            A: 'kubejs:unpowered_silver_ingot'
+            A: 'bewitchment:unpowered_silver_ingot'
         }
     )
     event.shaped(
-        Item.of('kubejs:unpowered_silver_ingot', 1),
+        Item.of('bewitchment:unpowered_silver_ingot', 1),
         [
             'AAA',
             'AAA',
             'AAA'
         ],
         {
-            A: 'kubejs:unpowered_silver_nugget'
+            A: 'bewitchment:unpowered_silver_nugget'
         }
     )
     event.shaped(

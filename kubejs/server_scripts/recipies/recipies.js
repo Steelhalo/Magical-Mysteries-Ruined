@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
       '   '
     ],
     {
-      A: 'kubejs:unpowered_silver_ingot',
+      A: 'bewitchment:unpowered_silver_ingot',
       B: 'minecraft:flint'
     }
 )
@@ -57,11 +57,11 @@ ServerEvents.recipes(event => {
   event.replaceInput(
     {input: 'bewitchment:silver_block'},
     'bewitchment:silver_block',
-    'kubejs:powered_silver_block'
+    'bewitchment:powered_silver_block'
   )
   event.replaceInput(
-    {input: 'kubejs:powered_silver_block'},
-    'kubejs:powered_silver_block',
+    {input: 'bewitchment:powered_silver_block'},
+    'bewitchment:powered_silver_block',
     'bewitchment:silver_block'
   )
 })

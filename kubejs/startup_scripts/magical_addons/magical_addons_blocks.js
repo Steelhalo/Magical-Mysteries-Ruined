@@ -1,7 +1,6 @@
 //Blocks
-
 StartupEvents.registry('block', event => {
-  event.create('powered_silver_block', 'basic')
+  event.create('bewitchment:powered_silver_block', 'basic')
     .displayName('Powered Silver Block')
     .soundType('metal')
     .hardness(2.5)
@@ -10,16 +9,15 @@ StartupEvents.registry('block', event => {
     .requiresTool(true)
     .tagBlock('minecraft:mineable/pickaxe')
     .tagBlock('minecraft:needs_iron_tool')
-    .texture('north', 'magical_addons:block/silver_block_face_1')
-    .texture('east', 'magical_addons:block/silver_block_face_2')
-    .texture('south', 'magical_addons:block/silver_block_face_3')
-    .texture('west', 'magical_addons:block/silver_block_face_4')
-    .texture('up', 'magical_addons:block/silver_block_face_5')
-    .texture('down', 'magical_addons:block/silver_block_face_6')
+    .texture('north', 'magical_addons:block/powered_silver_block_face_1')
+    .texture('south', 'magical_addons:block/powered_silver_block_face_2')
+    .texture('east', 'magical_addons:block/powered_silver_block_face_3')
+    .texture('west', 'magical_addons:block/powered_silver_block_face_4')
+    .texture('up', 'magical_addons:block/powered_silver_block_face_5')
+    .texture('down', 'magical_addons:block/powered_silver_block_face_6')
 })
 
 //Particle Blocks
-
 StartupEvents.registry('block', event => {
   event.create('purple_drip_block', 'basic')
     .displayName('Purple Drip Block')
