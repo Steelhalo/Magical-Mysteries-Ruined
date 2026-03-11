@@ -1,0 +1,1 @@
+scoreboard players set 20tick trueEnding_count 0

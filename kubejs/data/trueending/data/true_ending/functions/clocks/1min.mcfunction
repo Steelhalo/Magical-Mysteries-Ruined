@@ -1,0 +1,1 @@
+scoreboard players set 1min trueEnding_count 0

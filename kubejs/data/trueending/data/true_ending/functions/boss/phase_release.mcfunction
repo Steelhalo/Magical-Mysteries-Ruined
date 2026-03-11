@@ -1,0 +1,2 @@
+summon firework_rocket ~ ~1 ~ {FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;15597823,15832831]},{Type:1,Colors:[I;16722310,16717684]}]}}},Silent:1b}
+particle flash ~ ~ ~ 0 0 0 0 5 force

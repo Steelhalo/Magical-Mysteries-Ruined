@@ -1,0 +1,90 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:1\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:1}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:2\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:2}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:3\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:3}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:4\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:4}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:5\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:5}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:6\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:6}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:7\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:7}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:paper",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{Name:'{\"translate\":\"Output:8\"}'},RefreshRandomizerItem:1,RefreshRandomizerOutput:8}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
