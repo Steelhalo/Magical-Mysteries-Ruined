@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wood_good"
+	group: "2821FDD3B54232D5"
+	id: "0EAC218A32C501E9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

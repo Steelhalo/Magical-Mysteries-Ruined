@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ecologics"
+	group: "51D28C4D563B257F"
+	id: "55FBB3383EF13A40"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

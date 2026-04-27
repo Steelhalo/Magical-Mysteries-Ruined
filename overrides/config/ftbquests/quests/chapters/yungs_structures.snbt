@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "yungs_structures"
+	group: "51D28C4D563B257F"
+	id: "0E9E5C778799375B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

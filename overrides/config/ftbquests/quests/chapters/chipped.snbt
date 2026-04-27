@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "2821FDD3B54232D5"
+	id: "43B1E9DD65E7E504"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

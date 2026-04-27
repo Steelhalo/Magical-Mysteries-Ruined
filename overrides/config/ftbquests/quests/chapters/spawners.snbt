@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spawners"
+	group: "25708450871D0D9E"
+	id: "6F8CDB4442E90C2C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "51D28C4D563B257F"
+	id: "127F5E643467D347"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

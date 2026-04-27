@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other_building_mods"
+	group: "2821FDD3B54232D5"
+	id: "4BCD59E01DAC3B26"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

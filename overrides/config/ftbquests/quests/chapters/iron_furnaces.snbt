@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "76A2E8AF3CDAD3D0"
+	id: "0417AB5B59983517"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

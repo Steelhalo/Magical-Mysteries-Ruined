@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chissel"
+	group: "2821FDD3B54232D5"
+	id: "06DD78EE8E5F38BD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+}

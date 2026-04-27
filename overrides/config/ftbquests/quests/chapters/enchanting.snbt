@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchanting"
+	group: "25708450871D0D9E"
+	id: "6A9B9F590AA99DB1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

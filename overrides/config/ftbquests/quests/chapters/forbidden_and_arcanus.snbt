@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "forbidden_and_arcanus"
+	group: "76A2E8AF3CDAD3D0"
+	id: "6401485EF41AFB97"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

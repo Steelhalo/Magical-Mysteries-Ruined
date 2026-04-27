@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "supplementaries"
+	group: "2821FDD3B54232D5"
+	id: "1E3CC79DEA61D1A3"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}
