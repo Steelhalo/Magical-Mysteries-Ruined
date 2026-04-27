@@ -1,8 +1,0 @@
-# Don't change this! Version used to track needed updates.
-version = 0
-showHud = true
-hudCorner = "TOP_LEFT"
-hudX = 0
-hudY = 0
-spellHudSpacing = 80
-scrollChangesSpells = true
