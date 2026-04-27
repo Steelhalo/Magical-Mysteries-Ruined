@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"apothic_enchanting:seashelf"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:gem_cutting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"apothic_attributes:strong_knowledge"}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
