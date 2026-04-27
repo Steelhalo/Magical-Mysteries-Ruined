@@ -1,1 +1,0 @@
-scoreboard players set 5tick trueEnding_count 0
