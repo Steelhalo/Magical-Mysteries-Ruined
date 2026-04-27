@@ -1,0 +1,96 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.wood_type.deeperdarker]
+			bloom = true
+			echo = true
+
+		[types.wood_type.domum_ornamentum]
+			cactus = true
+			cactus_extra = true
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
+		[types.wood_type.naturesaura]
+			ancient = true
+
+		[types.wood_type.forbidden_arcanus]
+			fungyss = true
+			aurum = true
+			edelwood = true
+
+		[types.wood_type.betterend]
+			mossy_glowshroom = true
+			pythadendron = true
+			end_lotus = true
+			lacugrove = true
+			dragon_tree = true
+			tenanea = true
+			helix_tree = true
+			umbrella_tree = true
+			jellyshroom = true
+			lucernia = true
+
+		[types.wood_type.eternal_starlight]
+			lunar = true
+			northland = true
+			banyin = true
+			scarlet = true
+			torreya = true
+			jinglestem = true
+			cradlewood = true
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
+
+		[types.leaves_type.naturesaura]
+			ancient = true
+			golden = true
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+
+		[types.leaves_type.deeperdarker]
+			echo = true
+
+		[types.leaves_type.forbidden_arcanus]
+			aurum = true
+			nuggety_aurum = true
+
+		[types.leaves_type.ars_elemental]
+			yellow_archwood = true
+
+		[types.leaves_type.betterend]
+			pythadendron = true
+			lacugrove = true
+			dragon_tree = true
+			tenanea = true
+			lucernia = true
+
+		[types.leaves_type.eternal_starlight]
+			lunar = true
+			northland = true
+			banyin = true
+			scarlet = true
+			torreya = true
+			cradlewood = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true

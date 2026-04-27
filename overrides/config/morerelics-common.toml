@@ -1,0 +1,7 @@
+[VertebraX]
+	#List of effects which can't be filtered/reduced by vertebrax.
+	excludedEffects = ["minecraft:levitation"]
+	#Pairs of effects which will grant the opposite version upon filtration.
+	#Format: 'modid:original_effect|modid:opposite_effect' Example: minecraft:weakness|minecraft:strength
+	#You can include modded effects here but first effect should be harmful and second effect should be beneficial or it won't work.
+	oppositeEffectMappings = ["minecraft:weakness|minecraft:strength", "minecraft:slowness|minecraft:speed", "minecraft:unluck|minecraft:luck", "minecraft:blindness|minecraft:night_vision", "minecraft:mining_fatigue|minecraft:haste", "morerelics:vulnerability|minecraft:resistance"]
