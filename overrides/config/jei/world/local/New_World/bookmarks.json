@@ -1,6 +1,7 @@
 [
   {"version":2},
   {"ingredient":{"id":"apothic_enchanting:seashelf"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"apotheosis:gem_cutting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"apothic_attributes:strong_knowledge"}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"minecraft:potion","components":{"minecraft:potion_contents":{"potion":"apothic_attributes:strong_knowledge"}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apothic_enchanting:library"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:shield","components":{"apotheosis:affixes":{"apotheosis:shield/attribute/stalwart":0.9249432,"apotheosis:shield/mob_effect/devilish":0.96194327,"apotheosis:generic/attribute/lucky":0.26355243,"apotheosis:shield/psychic":0.36461258,"apotheosis:shield/attribute/ironforged":0.37839788},"apotheosis:rarity":"apotheosis:epic","apotheosis:sockets":1,"apotheosis:durability_bonus":0.37398368,"apotheosis:affix_name":{"translate":"misc.apotheosis.affix_name.three","with":[{"translate":"affix.apotheosis:shield/attribute/ironforged"},"",{"translate":"affix.apotheosis:shield/mob_effect/devilish.suffix"}],"italic":false,"color":"#BB00BB"},"minecraft:damage":1}},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

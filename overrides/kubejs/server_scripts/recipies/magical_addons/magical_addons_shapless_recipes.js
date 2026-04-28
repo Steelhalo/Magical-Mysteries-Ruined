@@ -1,0 +1,3 @@
+//Shapless
+ServerEvents.recipes(event => {
+})

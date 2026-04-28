@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"gobber2:dragon_star"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"gobber2:dragon_elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deeperdarker:soul_elytra"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

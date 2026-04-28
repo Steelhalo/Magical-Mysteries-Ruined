@@ -714,6 +714,14 @@
     "curseForgeHash": 1559280720,
     "modrinthHash": "1de105be68b88de87a5e6749f320c790d550c120"
   },
+  "forbidden_arcanus_js-2101.1.3.jar": {
+    "jarName": "forbidden_arcanus_js-2101.1.3.jar",
+    "modId": "forbidden_arcanus_js",
+    "name": "Forbidden Arcanus JS",
+    "version": "2101.1.3",
+    "curseForgeHash": 3747370555,
+    "modrinthHash": "5ac9879e24713aebd289338ca7965756482523c2"
+  },
   "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar": {
     "jarName": "forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar",
     "modId": "fabric_api",
@@ -938,6 +946,14 @@
     "curseForgeHash": 3336958090,
     "modrinthHash": "c9fea9c9b38376af74b7a7da68dc8a7671f4b961"
   },
+  "irons_spells_js-4.0.3.jar": {
+    "jarName": "irons_spells_js-4.0.3.jar",
+    "modId": "irons_spells_js",
+    "name": "Iron\u0027s Spellbooks KubeJS",
+    "version": "4.0.3",
+    "curseForgeHash": 604812262,
+    "modrinthHash": "0481395c5847e2920d1425e77833bef87df63139"
+  },
   "Jade-1.21.1-NeoForge-15.10.5.jar": {
     "jarName": "Jade-1.21.1-NeoForge-15.10.5.jar",
     "modId": "jade",
@@ -1034,6 +1050,14 @@
     "curseForgeHash": 927338680,
     "modrinthHash": "328da50972fa693b8e6f337d4a9560d4a6170ac3"
   },
+  "kjsbotanypots-1.3.2.jar": {
+    "jarName": "kjsbotanypots-1.3.2.jar",
+    "modId": "kjsbotanypots",
+    "name": "kjsbotanypots",
+    "version": "1.3.2",
+    "curseForgeHash": 252745031,
+    "modrinthHash": "234cfbb095b83d78fb25e54571d72505d26a7b6b"
+  },
   "konkrete_neoforge_1.9.9_MC_1.21.jar": {
     "jarName": "konkrete_neoforge_1.9.9_MC_1.21.jar",
     "modId": "konkrete",
@@ -1070,6 +1094,14 @@
     "version": "1.0.4",
     "curseForgeHash": 1727905040,
     "modrinthHash": "d76c4181e1436bc85f108c7191f1ed7ee374d318"
+  },
+  "kubejs_naturesaura-1.0.3.jar": {
+    "jarName": "kubejs_naturesaura-1.0.3.jar",
+    "modId": "kubejs_naturesaura",
+    "name": "KubeJS Nature\u0027s Aura",
+    "version": "1.0.3",
+    "curseForgeHash": 4261147714,
+    "modrinthHash": "db1d61e6ba362625f03080c3c99e8c5411201ed4"
   },
   "kubejsarsnouveau-1.3.2.jar": {
     "jarName": "kubejsarsnouveau-1.3.2.jar",
@@ -1198,6 +1230,14 @@
     "version": "1.0.7",
     "curseForgeHash": 3317811947,
     "modrinthHash": "834cc35294be3bb514bc0ba571ab7337961af383"
+  },
+  "morejs-neoforge-1.21.1-0.16.0.jar": {
+    "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
+    "modId": "morejs",
+    "name": "MoreJS",
+    "version": "1.21.1-0.16.0",
+    "curseForgeHash": 3732970515,
+    "modrinthHash": "7e8aea4f03b18076cab5555f6d30e35ff919b342"
   },
   "morerelics-1.7.3-1.21.1.jar": {
     "jarName": "morerelics-1.7.3-1.21.1.jar",
@@ -1638,6 +1678,14 @@
     "version": "1.72.0",
     "curseForgeHash": 2048598819,
     "modrinthHash": "2941582e65aac0934b369bfd42f91ecdc4b35e72"
+  },
+  "theurgy_kubejs-1.21.1-neoforge-1.5.1.jar": {
+    "jarName": "theurgy_kubejs-1.21.1-neoforge-1.5.1.jar",
+    "modId": "theurgy_kubejs",
+    "name": "Theurgy KubeJS",
+    "version": "1.5.1",
+    "curseForgeHash": 1694281625,
+    "modrinthHash": "f65ff740fd866275c1e9b3e10c7bee895025bd5e"
   },
   "trade-cycling-neoforge-1.21.1-1.0.18.jar": {
     "jarName": "trade-cycling-neoforge-1.21.1-1.0.18.jar",

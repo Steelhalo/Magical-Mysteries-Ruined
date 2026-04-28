@@ -8,7 +8,7 @@
     "has_pillars": true,
     "replace_pillars": true,
     "biome_size_caves": 32,
-    "end_city_fail_chance": 5
+    "end_city_fail_chance": 4
   },
   "generator": {
     "use_new_generator": true,
