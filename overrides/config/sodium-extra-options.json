@@ -16,19 +16,24 @@
     "other": {}
   },
   "detail_settings": {
-    "sky": false,
+    "sky": true,
     "sun": true,
     "moon": true,
     "stars": false,
     "rain_snow": false,
-    "biome_colors": false,
-    "sky_colors": false
+    "biome_colors": true,
+    "sky_colors": true
   },
   "render_settings": {
     "fog_distance": 8,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
-    "dimensionFogDistance": {},
+    "dimensionFogDistance": {
+      "minecraft:overworld": 0,
+      "minecraft:the_nether": 0,
+      "minecraft:the_end": 0,
+      "eternal_starlight:special_effect": 0
+    },
     "light_updates": true,
     "item_frame": true,
     "armor_stand": true,
