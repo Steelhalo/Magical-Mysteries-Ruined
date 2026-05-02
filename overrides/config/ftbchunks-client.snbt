@@ -138,122 +138,127 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"ecologics:coconut_crab": true
-			"minecraft:axolotl": true
-			"eternal_starlight:rookfish": true
-			"minecraft:vindicator": true
-			"minecraft:slime": true
-			"eternal_starlight:gleech": true
-			"endermanoverhaul:warped_forest_enderman": true
-			"eternal_starlight:shimmer_lacewing": true
-			"minecraft:evoker": true
-			"creeperoverhaul:beach_creeper": true
-			"minecraft:horse": true
-			"irons_spellbooks:apothecarist": true
-			"minecraft:camel": true
-			"minecraft:rabbit": true
-			"irons_spellbooks:priest": true
-			"minecraft:zoglin": true
+			"minecraft:trader_llama": true
 			"minecraft:iron_golem": true
-			"minecraft:zombified_piglin": true
-			"ars_nouveau:alakarkinos": true
-			"minecraft:piglin_brute": true
-			"betterend:end_fish": true
-			"minecraft:ravager": true
-			"irons_spellbooks:necromancer": true
-			"eternal_starlight:seeker": true
-			"creeperoverhaul:jungle_creeper": true
-			"minecraft:frog": true
-			"minecraft:wandering_trader": true
-			"minecraft:strider": true
-			"creeperoverhaul:bamboo_creeper": true
-			"minecraft:witch": true
-			"irons_spellbooks:cursed_armor_stand": true
-			"eternal_starlight:the_gatekeeper": true
-			"eternal_starlight:crystallized_moth": true
-			"minecraft:cat": true
-			"minecraft:cod": false
-			"minecraft:villager": true
-			"creeperoverhaul:cave_creeper": true
+			"minecraft:skeleton_horse": true
+			"betterend:silk_moth": true
+			"minecraft:armadillo": true
+			"ars_nouveau:drygmy": true
+			"minecraft:wither": true
 			"minecraft:sheep": true
-			"eternal_starlight:tangled": true
+			"minecraft:skeleton": true
+			"minecraft:blaze": true
+			"deeperdarker:shattered": true
+			"eternal_starlight:nightfall_spider": true
+			"minecraft:evoker": true
+			"eternal_starlight:crystallized_moth": true
+			"minecraft:rabbit": true
+			"minecraft:wolf": true
+			"minecraft:ender_dragon": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:llama": true
+			"minecraft:hoglin": true
+			"minecraft:enderman": true
+			"minecraft:cat": true
+			"ecologics:squirrel": true
+			"forbidden_arcanus:lost_soul": true
+			"minecraft:piglin": true
+			"artifacts:mimic": true
+			"minecraft:bat": true
+			"eternal_starlight:seeker": true
+			"minecraft:pufferfish": false
+			"irons_spellbooks:pyromancer": true
+			"creeperoverhaul:beach_creeper": true
+			"ars_nouveau:gift_starby": true
+			"ecologics:penguin": true
+			"minecraft:zombified_piglin": true
 			"minecraft:tropical_fish": false
+			"ars_elemental:siren_entity": true
+			"minecraft:cod": false
+			"minecraft:zombie_villager": true
+			"eternal_starlight:rookfish": true
+			"betterend:dragonfly": true
+			"ars_nouveau:alakarkinos": true
+			"minecraft:camel": true
+			"minecraft:husk": true
 			"minecraft:donkey": true
+			"minecraft:strider": true
 			"minecraft:parrot": true
 			"minecraft:dolphin": true
-			"minecraft:elder_guardian": true
-			"minecraft:wolf": true
-			"minecraft:wither": true
-			"creeperoverhaul:swamp_creeper": true
-			"minecraft:drowned": true
-			"minecraft:squid": true
-			"minecraft:husk": true
-			"minecraft:cow": true
-			"irons_spellbooks:cryomancer": true
 			"irons_spellbooks:archevoker": true
-			"minecraft:pufferfish": false
-			"endermanoverhaul:crimson_forest_enderman": true
+			"betterend:end_fish": true
+			"minecraft:turtle": true
+			"minecraft:fox": true
+			"minecraft:guardian": true
+			"minecraft:axolotl": true
+			"minecraft:frog": true
+			"creeperoverhaul:swamp_creeper": true
+			"irons_spellbooks:priest": true
+			"minecraft:panda": true
+			"creeperoverhaul:jungle_creeper": true
 			"endermanoverhaul:swamp_enderman": true
-			"eternal_starlight:lonestar_skeleton": true
-			"betterend:dragonfly": true
-			"minecraft:enderman": true
-			"ars_elemental:flashjack_entity": true
-			"eternal_starlight:luminofish": true
+			"minecraft:salmon": false
+			"ars_nouveau:starbuncle": true
+			"minecraft:bogged": true
+			"minecraft:villager": true
+			"minecraft:vindicator": true
+			"eternal_starlight:thirst_walker": true
+			"minecraft:elder_guardian": true
+			"minecraft:warden": true
+			"minecraft:pillager": true
+			"minecraft:chicken": true
+			"minecraft:ravager": true
+			"irons_spellbooks:cursed_armor_stand": true
+			"minecraft:spider": true
 			"eternal_starlight:ent": true
 			"eternal_starlight:shadow_snail": true
+			"ars_elemental:flashjack_entity": true
+			"minecraft:zombie": true
+			"minecraft:creeper": true
+			"minecraft:shulker": true
 			"minecraft:wither_skeleton": true
-			"ars_elemental:siren_entity": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:pillager": true
-			"minecraft:bogged": true
-			"minecraft:salmon": false
-			"minecraft:panda": true
-			"eternal_starlight:freeze": true
-			"minecraft:fox": true
-			"deeperdarker:shattered": true
-			"ars_nouveau:drygmy": true
+			"minecraft:zoglin": true
 			"irons_spellbooks:citadel_keeper": true
-			"eternal_starlight:nightfall_spider": true
-			"betterend:cubozoa": true
-			"minecraft:blaze": true
-			"minecraft:llama": true
-			"ars_nouveau:wilden_guardian": true
-			"endermanoverhaul:dark_oak_enderman": true
-			"minecraft:skeleton": true
-			"betterend:silk_moth": true
-			"deeperdarker:sculk_snapper": true
-			"irons_spellbooks:pyromancer": true
-			"ars_nouveau:whirlisprig": true
-			"eternal_starlight:thirst_walker": true
+			"endermanoverhaul:cave_enderman": true
+			"minecraft:cow": true
+			"creeperoverhaul:bamboo_creeper": true
+			"irons_spellbooks:necromancer": true
+			"eternal_starlight:freeze": true
 			"minecraft:magma_cube": true
 			"minecraft:cave_spider": true
-			"minecraft:trader_llama": true
-			"minecraft:zombie": true
-			"minecraft:chicken": true
-			"minecraft:skeleton_horse": true
-			"ecologics:squirrel": true
-			"eternal_starlight:ratlin": true
-			"minecraft:ender_dragon": true
-			"forbidden_arcanus:lost_soul": true
-			"minecraft:spider": true
-			"ecologics:penguin": true
-			"minecraft:bat": true
-			"minecraft:armadillo": true
-			"endermanoverhaul:cave_enderman": true
-			"artifacts:mimic": true
-			"minecraft:hoglin": true
-			"minecraft:zombie_villager": true
-			"minecraft:pig": true
-			"minecraft:bee": true
-			"endermanoverhaul:end_enderman": true
-			"minecraft:creeper": true
+			"minecraft:squid": true
+			"ecologics:coconut_crab": true
+			"minecraft:horse": true
+			"betterend:cubozoa": true
+			"minecraft:piglin_brute": true
+			"endermanoverhaul:warped_forest_enderman": true
+			"eternal_starlight:gleech": true
 			"supplementaries:plunderer": true
+			"minecraft:pig": true
+			"irons_spellbooks:cryomancer": true
+			"eternal_starlight:lonestar_skeleton": true
+			"endermanoverhaul:dark_oak_enderman": true
+			"ars_nouveau:wilden_hunter": true
+			"minecraft:drowned": true
+			"minecraft:slime": true
+			"endermanoverhaul:end_enderman": true
 			"creeperoverhaul:dripstone_creeper": true
-			"minecraft:piglin": true
-			"minecraft:ghast": true
-			"minecraft:glow_squid": true
-			"minecraft:shulker": true
 			"creeperoverhaul:dark_oak_creeper": true
+			"ars_nouveau:wilden_guardian": true
+			"irons_spellbooks:apothecarist": true
+			"eternal_starlight:tangled": true
+			"minecraft:ghast": true
+			"minecraft:witch": true
+			"endermanoverhaul:crimson_forest_enderman": true
+			"minecraft:glow_squid": true
+			"eternal_starlight:luminofish": true
+			"eternal_starlight:the_gatekeeper": true
+			"deeperdarker:sculk_snapper": true
+			"creeperoverhaul:cave_creeper": true
+			"eternal_starlight:ratlin": true
+			"eternal_starlight:shimmer_lacewing": true
+			"minecraft:wandering_trader": true
+			"minecraft:bee": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

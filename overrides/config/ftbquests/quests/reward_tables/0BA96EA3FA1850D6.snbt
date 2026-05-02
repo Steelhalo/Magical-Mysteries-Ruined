@@ -1,0 +1,49 @@
+{
+	id: "0BA96EA3FA1850D6"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			count: 2
+			id: "7AC8D7F609959CBD"
+			item: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_essence"
+			}
+			random_bonus: 2
+		}
+		{
+			count: 4
+			id: "2625F1B6B760526C"
+			item: {
+				count: 1
+				id: "mysticalagriculture:cognizant_dust"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "0E116178B4432968"
+			item: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_ingot"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "503DBA9D08AC894D"
+			item: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_gemstone"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "1AEB813ED56E4540"
+			item: {
+				count: 1
+				id: "mysticalagriculture:awakened_supremium_block"
+			}
+			random_bonus: 1
+		}
+	]
+}

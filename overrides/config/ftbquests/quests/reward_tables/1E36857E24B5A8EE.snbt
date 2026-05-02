@@ -1,0 +1,56 @@
+{
+	id: "1E36857E24B5A8EE"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			id: "182C2854001F4434"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_essence"
+			}
+			random_bonus: 4
+		}
+		{
+			id: "14C08E6E9C6D91F9"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_ingot"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "7C8FA0CC19B47012"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_gemstone"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "0777510270A4655D"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_coal"
+			}
+			random_bonus: 1
+		}
+		{
+			id: "264070F234FCECB8"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_apple"
+			}
+			random_bonus: 2
+		}
+		{
+			id: "3B55E2D56AA0FC3C"
+			item: {
+				count: 1
+				id: "mysticalagradditions:insanium_block"
+			}
+			random_bonus: 1
+		}
+	]
+}

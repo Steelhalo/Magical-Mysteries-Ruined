@@ -1,7 +1,7 @@
 LootJS.lootTables(event => {
     let ids = event.getLootTableIds(/.*chests\/.*/)
     for (let id of ids) {
-        console.log(id)
+        //console.log(id)
         event.getLootTable(id)
         .removeItem("irons_spellbooks:scroll")
         .removeItem("ars_additions:imbued_spell_parchment")

@@ -6,93 +6,90 @@ ServerEvents.recipes(event => {
             'AB ',
             'CD ',
             '   '
-        ],
-        {
+        ], {
             A: 'gobber2:gobber2_glob',
             B: 'minecraft:diamond',
             C: 'minecraft:iron_ingot',
             D: 'minecraft:gold_ingot'
-        }
-    )
+        })
     event.shaped(
         Item.of('gobber2:gobber2_ingot_nether', 2),
         [
             'AB ',
             'BC ',
             '   '
-        ],
-        {
+        ], {
             A: 'gobber2:gobber2_glob_nether',
             B: 'gobber2:gobber2_ingot',
             C: 'minecraft:netherite_scrap'
-        }
-    )
+        })
     event.shaped(
         Item.of('gobber2:gobber2_ingot_end', 2),
         [
             'AB ',
             'BC ',
             '   '
-        ],
-        {
+        ], {
             A: 'gobber2:gobber2_glob_end',
             B: 'gobber2:gobber2_ingot_nether',
             C: 'minecraft:chorus_flower'
-        }
-    )
-        event.shaped(
+        })
+    // Trim dupes, can't set a count of more than one for callbacks so this is the best way
+    event.shaped(
+        Item.of('deeperdarker:warden_upgrade_smithing_template', 2),
+        [
+            'BAB',
+            'BCB',
+            'BBB'
+        ], {
+            A: 'deeperdarker:warden_upgrade_smithing_template',
+            B: 'minecraft:sculk_catalyst',
+            C: 'forbidden_arcanus:darkstone'
+        })
+    event.shaped(
         Item.of('kubejs:gobber_smithing_template', 2),
         [
             'BAB',
             'BCB',
             'BBB'
-        ],
-        {
+        ], {
             A: 'kubejs:gobber_smithing_template',
             B: 'gobber2:gobber2_ingot',
             C: 'minecraft:deepslate'
-        }
-    )
-    // Trim dupes, can't set a count of more than one for callbacks so this is the best way
+        })
     event.shaped(
         Item.of('kubejs:nether_gobber_smithing_template', 2),
         [
             'BAB',
             'BCB',
             'BBB'
-        ],
-        {
+        ], {
             A: 'kubejs:nether_gobber_smithing_template',
             B: 'gobber2:gobber2_ingot_nether',
             C: 'minecraft:netherrack'
-        }
-    )
+        })
     event.shaped(
         Item.of('kubejs:end_gobber_smithing_template', 2),
         [
             'BAB',
             'BCB',
             'BBB'
-        ],
-        {
+        ], {
             A: 'kubejs:end_gobber_smithing_template',
             B: 'gobber2:gobber2_ingot_end',
             C: 'minecraft:end_stone'
-        }
-    )
+        })
     event.shaped(
         Item.of('kubejs:dragon_gobber_smithing_template', 2),
         [
             'BAB',
             'BCB',
             'BBB'
-        ],
-        {
+        ], {
             A: 'kubejs:dragon_gobber_smithing_template',
             B: 'apothic_enchanting:infused_breath',
             C: 'minecraft:purpur_block'
-        }
-    )
+        })
 })
 // Script recipes
 ServerEvents.recipes(event => {

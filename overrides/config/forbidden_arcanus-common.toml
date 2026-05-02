@@ -14,7 +14,7 @@
 		#Should Stella Arcanum explode when mined [default: true]
 		explode = true
 		#Should Stella Arcanum explosions deal Block Damage (if explosions enabled) [default: true]
-		block_damage = true
+		block_damage = false
 		#Radius of Stella Arcanum explosions (if explosions enabled) [default: 3]
 		# Default: 3
 		# Range: 1 ~ 10

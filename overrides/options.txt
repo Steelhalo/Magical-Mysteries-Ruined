@@ -57,7 +57,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -76,7 +76,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
-joinedFirstServer:false
+joinedFirstServer:true
 hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
@@ -128,6 +128,7 @@ key_iris.keybind.wireframe:key.keyboard.unknown
 key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.eternal_starlight.switch_crest:key.keyboard.h
 key_key.curios.open.desc:key.keyboard.g
+key_accessories.key.open_accessories_screen:key.keyboard.h
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.previousPage:key.keyboard.unknown

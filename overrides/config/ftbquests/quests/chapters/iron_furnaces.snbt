@@ -3,8 +3,377 @@
 	default_quest_shape: ""
 	filename: "iron_furnaces"
 	group: "76A2E8AF3CDAD3D0"
+	icon: {
+		id: "ironfurnaces:iron_furnace"
+	}
 	id: "0417AB5B59983517"
+	images: [
+		{
+			height: 2.0d
+			image: "magical_addons:textures/questpics/furnaces/iron_furnaces.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 0.0d
+			y: -10.6d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_copper_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.7d
+			y: -3.1d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_crystal_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.3d
+			y: -2.4d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_diamond_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.3d
+			y: -4.8d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_emerald_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.3d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_gold_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.1d
+			y: -4.8d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_iron_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.9d
+			y: -4.8d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_netherite_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.1d
+			y: 1.4d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_obsidian_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.3d
+			y: 1.4d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_rainbow_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.9d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "magical_addons:textures/questpics/furnaces/furnace_silver_off.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.8d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "18A7CA0FBB46E7AF"
+			tasks: [{
+				id: "7061FC56E75C948B"
+				item: { count: 1, id: "ironfurnaces:copper_furnace" }
+				type: "item"
+			}]
+			x: -2.9d
+			y: -2.4d
+		}
+		{
+			dependencies: ["18A7CA0FBB46E7AF"]
+			id: "7A0B5B34306434F3"
+			tasks: [{
+				id: "6367027D56330CA9"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: -2.9d
+			y: -3.8d
+		}
+		{
+			dependencies: ["7A0B5B34306434F3"]
+			id: "5A60876C98AA2A5C"
+			tasks: [{
+				id: "0D71F5FBE66B1F76"
+				item: { count: 1, id: "ironfurnaces:silver_furnace" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.8d
+		}
+		{
+			dependencies: [
+				"7A0B5B34306434F3"
+				"5A60876C98AA2A5C"
+			]
+			dependency_requirement: "one_completed"
+			id: "6907313ECE3347E9"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "2178A091DBA0E450"
+				item: { count: 1, id: "ironfurnaces:gold_furnace" }
+				type: "item"
+			}]
+			x: -0.10000000000000009d
+			y: -3.8d
+		}
+		{
+			dependencies: ["6907313ECE3347E9"]
+			id: "52CAD95E54D15917"
+			tasks: [{
+				id: "722EDA9E7CD42EC5"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
+			x: 1.3000000000000003d
+			y: -3.8d
+		}
+		{
+			dependencies: ["52CAD95E54D15917"]
+			id: "60B3D067E8B9FFCC"
+			tasks: [{
+				id: "676F401E526BD706"
+				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
+				type: "item"
+			}]
+			x: 1.3000000000000003d
+			y: -2.4d
+		}
+		{
+			dependencies: ["52CAD95E54D15917"]
+			id: "6746FBE749F877A7"
+			tasks: [{
+				id: "2CE878C0850027A1"
+				item: { count: 1, id: "ironfurnaces:emerald_furnace" }
+				type: "item"
+			}]
+			x: 1.3000000000000003d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6746FBE749F877A7"
+				"60B3D067E8B9FFCC"
+			]
+			dependency_requirement: "one_completed"
+			id: "053B88EA4E2C6297"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "74413EC49CEB598D"
+				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
+				type: "item"
+			}]
+			x: 1.3000000000000003d
+			y: 0.40000000000000036d
+		}
+		{
+			dependencies: ["053B88EA4E2C6297"]
+			id: "5F5DA7B9C374C26F"
+			tasks: [{
+				id: "197B417FA3DEE496"
+				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
+				type: "item"
+			}]
+			x: -0.09999999999999964d
+			y: 0.40000000000000036d
+		}
+		{
+			dependencies: [
+				"18A7CA0FBB46E7AF"
+				"60B3D067E8B9FFCC"
+				"52CAD95E54D15917"
+				"6746FBE749F877A7"
+				"6907313ECE3347E9"
+				"7A0B5B34306434F3"
+				"053B88EA4E2C6297"
+				"5A60876C98AA2A5C"
+			]
+			id: "4B256FE10BED0D87"
+			tasks: [{
+				count: 8L
+				id: "763A28CA96030CCD"
+				item: { count: 1, id: "ironfurnaces:rainbow_plating" }
+				type: "item"
+			}]
+			x: -0.8000000000000003d
+			y: -1.6999999999999997d
+		}
+		{
+			dependencies: ["5F5DA7B9C374C26F"]
+			id: "51841F5EA3E4ED65"
+			tasks: [{
+				id: "0EF450E43D91D057"
+				item: { count: 1, id: "ironfurnaces:rainbow_core" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.40000000000000036d
+		}
+		{
+			dependencies: [
+				"4B256FE10BED0D87"
+				"51841F5EA3E4ED65"
+			]
+			id: "2B406C5244ACC44F"
+			tasks: [{
+				id: "575D3B6B0C2B54FE"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"aqua\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"i\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"blue\",\"text\":\"F\"},{\"color\":\"aqua\",\"text\":\"u\"},{\"color\":\"green\",\"text\":\"r\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: -2.9d
+			y: 0.40000000000000036d
+		}
+		{
+			dependencies: ["2B406C5244ACC44F"]
+			id: "1C86F40FB80DD070"
+			tasks: [{
+				id: "75E63D6AA0B4BB42"
+				item: { count: 1, id: "ironfurnaces:rainbow_coal" }
+				type: "item"
+			}]
+			x: -2.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "293EAC85CE0A9672"
+			tasks: [{
+				id: "02474CD2E99DA1C4"
+				item: { count: 1, id: "ironfurnaces:augment_blasting" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "44329C0DBFDDF5F8"
+			tasks: [{
+				id: "0F6D071E4D1D9008"
+				item: { count: 1, id: "ironfurnaces:augment_smoking" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "13651822C972D85D"
+			tasks: [{
+				id: "79365F3E814A9923"
+				item: { count: 1, id: "ironfurnaces:augment_factory" }
+				type: "item"
+			}]
+			x: -5.9d
+			y: -3.6d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "0DF602D9C0F64D12"
+			tasks: [{
+				id: "00C92B70480A7134"
+				item: { count: 1, id: "ironfurnaces:augment_generator" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.6d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "0AE779BEA3AAC047"
+			tasks: [{
+				id: "45540523BCC3121D"
+				item: { count: 1, id: "ironfurnaces:augment_speed" }
+				type: "item"
+			}]
+			x: -6.4d
+			y: -1.8d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "27D889A977723E84"
+			tasks: [{
+				id: "0B089E5EE7F32D52"
+				item: { count: 1, id: "ironfurnaces:augment_fuel" }
+				type: "item"
+			}]
+			x: -6.4d
+			y: -2.7d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "0DAF4ADE161A2EFF"
+			tasks: [{
+				id: "35B08BB39075FF77"
+				item: { count: 1, id: "ironfurnaces:item_copy" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "6E4271380D5719C2"
+			tasks: [{
+				id: "1A4DF6DC674C41F6"
+				item: { count: 1, id: "ironfurnaces:heater" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46079F05C0E6D86A"]
+			id: "7F713E0B59BA6962"
+			tasks: [{
+				id: "3501812DD7DE4380"
+				item: { count: 1, id: "ironfurnaces:item_heater" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			id: "46079F05C0E6D86A"
+			tasks: [{
+				id: "2D37B7D8D5055013"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.4d
+		}
+	]
 }
