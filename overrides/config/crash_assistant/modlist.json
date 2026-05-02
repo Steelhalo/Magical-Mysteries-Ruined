@@ -5,6 +5,14 @@
     "name": "neoforge",
     "version": "neoforge-21.1.228"
   },
+  "accessories-neoforge-1.1.0-beta.53+1.21.1.jar": {
+    "jarName": "accessories-neoforge-1.1.0-beta.53+1.21.1.jar",
+    "modId": "accessories",
+    "name": "Accessories",
+    "version": "1.1.0-beta.53+1.21.1",
+    "curseForgeHash": 2661209689,
+    "modrinthHash": "77d75c2e13cfdf56a45cdd29806c1c97c3d250fc"
+  },
   "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar": {
     "jarName": "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
     "modId": "advancementplaques",
@@ -12,14 +20,6 @@
     "version": "1.6.8",
     "curseForgeHash": 721102153,
     "modrinthHash": "829d33e71b30e9158d772f5963bb6020f6026d78"
-  },
-  "allthearcanistgear-1.21.1-21.3.2.jar": {
-    "jarName": "allthearcanistgear-1.21.1-21.3.2.jar",
-    "modId": "allthearcanistgear",
-    "name": "All The Arcanist Gear",
-    "version": "1.21.1-21.3.2",
-    "curseForgeHash": 900721185,
-    "modrinthHash": "00298152fb92d382e1659e9c21235ecc44a03433"
   },
   "alltheleaks-1.1.8+1.21.1-neoforge.jar": {
     "jarName": "alltheleaks-1.1.8+1.21.1-neoforge.jar",
@@ -389,6 +389,14 @@
     "curseForgeHash": 2258564958,
     "modrinthHash": "e70b717b6e681b2fdb5cd1788110ab4959328b33"
   },
+  "connectivity-1.21.1-7.6.jar": {
+    "jarName": "connectivity-1.21.1-7.6.jar",
+    "modId": "connectivity",
+    "name": "Connectivity Mod",
+    "version": "7.6",
+    "curseForgeHash": 1642034907,
+    "modrinthHash": "6adebe84f745dec8fa33bc3982383bc1cc24d49e"
+  },
   "connector-2.0.0-beta.14+1.21.1-full.jar": {
     "jarName": "connector-2.0.0-beta.14+1.21.1-full.jar",
     "curseForgeHash": 170227865,
@@ -705,6 +713,22 @@
     "version": "7.0.3",
     "curseForgeHash": 2808038058,
     "modrinthHash": "9563692efb708b6b568df27a01ec52f6311928ef"
+  },
+  "flerovium-neoforge-1.21.1-1.0.18-all.jar": {
+    "jarName": "flerovium-neoforge-1.21.1-1.0.18-all.jar",
+    "modId": "flerovium",
+    "name": "Flerovium",
+    "version": "1.0.18",
+    "curseForgeHash": 1585335113,
+    "modrinthHash": "3d7890fa10d71a2dff2a25b19a9bc259261989e0"
+  },
+  "flickerfix-1.21.1-6.1.0.jar": {
+    "jarName": "flickerfix-1.21.1-6.1.0.jar",
+    "modId": "flickerfix",
+    "name": "FlickerFix",
+    "version": "6.1.0",
+    "curseForgeHash": 3555754541,
+    "modrinthHash": "3eadf069d9eeb7fb4e2295828a8aaefe6691d96d"
   },
   "forbidden_arcanus-2.6.1.jar": {
     "jarName": "forbidden_arcanus-2.6.1.jar",
@@ -1167,6 +1191,14 @@
     "curseForgeHash": 2861612356,
     "modrinthHash": "95058da06c16441211619ce46950502fd5ac1f64"
   },
+  "maxhealthfix-neoforge-1.21.1-21.1.4.jar": {
+    "jarName": "maxhealthfix-neoforge-1.21.1-21.1.4.jar",
+    "modId": "maxhealthfix",
+    "name": "MaxHealthFix",
+    "version": "21.1.4",
+    "curseForgeHash": 1435868219,
+    "modrinthHash": "56243df705c150933642f7108b0d882322147d63"
+  },
   "melody_neoforge_1.0.10_MC_1.21.jar": {
     "jarName": "melody_neoforge_1.0.10_MC_1.21.jar",
     "modId": "melody",
@@ -1174,6 +1206,14 @@
     "version": "1.0.10",
     "curseForgeHash": 2029427820,
     "modrinthHash": "e83052a92c4ca0016bcfe7f0207273983dc84698"
+  },
+  "memorysettings-1.21-6.0.jar": {
+    "jarName": "memorysettings-1.21-6.0.jar",
+    "modId": "memorysettings",
+    "name": "memorysettings mod",
+    "version": "6.0",
+    "curseForgeHash": 2540896523,
+    "modrinthHash": "cf94148dab1e03ee5c737657efe0371f1132a145"
   },
   "modelfix-1.21-1.10.jar": {
     "jarName": "modelfix-1.21-1.10.jar",
@@ -1311,6 +1351,14 @@
     "curseForgeHash": 4223903449,
     "modrinthHash": "f1a30bc3026ab56b4c8166dfb3c03223f540f305"
   },
+  "netherportalfix-neoforge-1.21.1-21.1.1.jar": {
+    "jarName": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
+    "modId": "netherportalfix",
+    "name": "NetherPortalFix",
+    "version": "21.1.1",
+    "curseForgeHash": 481214072,
+    "modrinthHash": "7cf40ec774392823e709da7659a6d4a5a04c8c9d"
+  },
   "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar": {
     "jarName": "NoChatReports-NEOFORGE-1.21.1-v2.9.1.jar",
     "modId": "nochatreports",
@@ -1375,6 +1423,14 @@
     "curseForgeHash": 3184049156,
     "modrinthHash": "250b3f1a34bcaee383545761f102834475e86819"
   },
+  "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar": {
+    "jarName": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+    "modId": "owo",
+    "name": "oωo",
+    "version": "0.12.15.5-beta.1+1.21",
+    "curseForgeHash": 990455198,
+    "modrinthHash": "48dda11a6710591cf162bdbedf982ea21dd1f2ed"
+  },
   "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar": {
     "jarName": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
     "modId": "packetfixer",
@@ -1390,6 +1446,14 @@
     "version": "4.0.0-beta.9",
     "curseForgeHash": 2834062069,
     "modrinthHash": "558e254c1c0b065fe0cc96c3a1ccf5255f3a3eca"
+  },
+  "particular-1.21.1-NeoForge-1.1.7.jar": {
+    "jarName": "particular-1.21.1-NeoForge-1.1.7.jar",
+    "modId": "particular",
+    "name": "Particular",
+    "version": "1.1.7",
+    "curseForgeHash": 3794983036,
+    "modrinthHash": "39d2fa3c396bf75a00078922dd6c2a7bf9f63f46"
   },
   "Patchouli-1.21.1-93-NEOFORGE.jar": {
     "jarName": "Patchouli-1.21.1-93-NEOFORGE.jar",
@@ -1575,6 +1639,22 @@
     "curseForgeHash": 4189901683,
     "modrinthHash": "35bb3b98f330e0f6d08466860157a578a1ecfca2"
   },
+  "smoothchunk-1.21-4.1.jar": {
+    "jarName": "smoothchunk-1.21-4.1.jar",
+    "modId": "smoothchunk",
+    "name": "Smoothchunk mod",
+    "version": "4.1",
+    "curseForgeHash": 2270201149,
+    "modrinthHash": "f54d5d352e15560240f151a7d054096a33a58f4a"
+  },
+  "snowundertrees-1.21.1-1.5.jar": {
+    "jarName": "snowundertrees-1.21.1-1.5.jar",
+    "modId": "snowundertrees",
+    "name": "Snow Under Trees",
+    "version": "1.5",
+    "curseForgeHash": 2678312983,
+    "modrinthHash": "3943e5f8ae55d8b9d025d7f109a71fb7e7db64dd"
+  },
   "sodium-extra-neoforge-0.6.0+mc1.21.1.jar": {
     "jarName": "sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
     "modId": "sodium_extra",
@@ -1622,6 +1702,14 @@
     "version": "1.5.44",
     "curseForgeHash": 3491439951,
     "modrinthHash": "50689eb735ce15ae26966f8c5279aa673326ca31"
+  },
+  "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar": {
+    "jarName": "sound-physics-remastered-neoforge-1.21.1-1.4.10.jar",
+    "modId": "sound_physics_remastered",
+    "name": "Sound Physics Remastered",
+    "version": "1.21.1-1.4.10",
+    "curseForgeHash": 3432189773,
+    "modrinthHash": "fc95715050152d1869284a25fccf0e742a1a98af"
   },
   "spark-1.10.124-neoforge.jar": {
     "jarName": "spark-1.10.124-neoforge.jar",
@@ -1734,6 +1822,14 @@
     "version": "21.1.30",
     "curseForgeHash": 2011091434,
     "modrinthHash": "1321fbbe1484498b481ef05b6aef374b07fe6a23"
+  },
+  "WitherSkeletonTweaks-1.21.1-10.1.1.jar": {
+    "jarName": "WitherSkeletonTweaks-1.21.1-10.1.1.jar",
+    "modId": "wstweaks",
+    "name": "Wither Skeleton Tweaks",
+    "version": "10.1.1",
+    "curseForgeHash": 3102657297,
+    "modrinthHash": "eda07efc2f5e47492abe205295b182c219c6199f"
   },
   "worldweaver-21.0.13.jar": {
     "jarName": "worldweaver-21.0.13.jar",

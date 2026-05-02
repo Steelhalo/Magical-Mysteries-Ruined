@@ -1,10 +1,127 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips_and_tricks"
 	group: ""
+	icon: {
+		id: "minecraft:recovery_compass"
+	}
 	id: "64240B9D36ABAB19"
+	images: [{
+		height: 2.0d
+		image: "minecraft:item/diamond"
+		rotation: 0.0d
+		width: 2.0d
+		x: -3.5d
+		y: -2.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6E17595887A051C2"]
+			hide_dependency_lines: true
+			id: "0F8F37D7E12078F5"
+			rewards: [{
+				id: "4B75B944FD221D3F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "42DA8E971B27ACED"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "0C856BBB1679A7DD"
+			rewards: [{
+				id: "5FA6EA3609ABF6BE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3DC008A578A93CCF"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "70B6C9409AE69284"
+			rewards: [
+				{
+					id: "262AC9191FD415A3"
+					table_id: 1234064663422651404L
+					type: "random"
+				}
+				{
+					id: "727954DC34582543"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "58E3131A3EA2661E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturescompass:naturescompass)item(explorerscompass:explorerscompass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.9d
+			y: 3.0d
+		}
+		{
+			id: "28E60192912BEBAD"
+			rewards: [{
+				id: "00E8AD05DE1012D8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "157C28027F8EEFFE"
+				item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28E60192912BEBAD"]
+			hide_until_deps_complete: true
+			id: "6E17595887A051C2"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "41BC2E08BA4E2BC7"
+					item: {
+						components: {
+							"easy_villagers:villager": { }
+						}
+						count: 1
+						id: "easy_villagers:villager"
+					}
+					type: "item"
+				}
+				{
+					id: "54539646780D2270"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2F4F472A9D461347"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:villager_job_sites)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
 }

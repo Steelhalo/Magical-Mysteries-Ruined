@@ -8,7 +8,8 @@ ServerEvents.recipes(event => {
 ServerEvents.recipes(event => {
     event.remove({ input: 'betterend:thallasium_nugget' }),
     event.remove({ input: 'betterend:thallasium_block' }),
-    event.remove({ input: 'betterend:thallasium_ingot' })
+    event.remove({ input: 'betterend:thallasium_ingot' }),
+    event.remove({ input: 'forbidden_arcanus:apply_modifier_smithing_template',  input: '#c:breakable' }), ({ input: 'forbidden_arcanus:apply_modifier_smithing_template',  output: '#c:breakable' })
 })
 //Filter By Input and Output
 ServerEvents.recipes(event => {
@@ -20,8 +21,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gobber2:gobber2_ingot_nether' }),
     event.remove({ id: 'gobber2:gobber2_ingot_end' })
     event.remove({ id: 'gobber2:dragon_star' }),
-    event.remove({ id: 'gobber2:dragon_elytra' })
-    event.remove({ id: 'deeperdarker:soul_elytra' })
+    event.remove({ id: 'gobber2:dragon_elytra' }),
+    event.remove({ id: 'deeperdarker:soul_elytra' }),
+    event.remove({ id: 'deeperdarker:warden_upgrade_smithing_template' })
 })
 //Filter By Type and Output
 ServerEvents.recipes(event => {

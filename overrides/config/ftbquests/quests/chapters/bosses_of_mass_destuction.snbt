@@ -3,8 +3,311 @@
 	default_quest_shape: ""
 	filename: "bosses_of_mass_destuction"
 	group: "51D28C4D563B257F"
+	icon: {
+		id: "bosses_of_mass_destruction:blazing_eye"
+	}
 	id: "66C78D07A55C76A5"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "36CDE2DC141152A1"
+			rewards: [{
+				id: "44B18F8146194B37"
+				item: {
+					count: 1
+					id: "bosses_of_mass_destruction:soul_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "604B7AF91FE8B671"
+				item: { count: 1, id: "bosses_of_mass_destruction:soul_star" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["44ACBB69FB9CD50B"]
+			id: "67696767B424D1EC"
+			rewards: [{
+				id: "475E0A5CC2CAACAB"
+				item: {
+					count: 1
+					id: "bosses_of_mass_destruction:crystal_fruit"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63652B84A46D3229"
+				item: { count: 1, id: "bosses_of_mass_destruction:crystal_fruit" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"237621038535E450"
+				"2FB14AC447EBCE4A"
+			]
+			hide_dependency_lines: true
+			id: "777CBCBF1ED39374"
+			rewards: [{
+				id: "0B1BA832B299F9AC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "478088ED3442FB56"
+				item: { count: 1, id: "bosses_of_mass_destruction:charged_ender_pearl" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2FB14AC447EBCE4A"
+				"7094D85923171947"
+				"12CE6F5E4AC39CE2"
+				"237621038535E450"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "504D37D4C92AA230"
+			rewards: [{
+				id: "1572089E891D05CE"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D665BD81A0D010F"
+				item: { count: 1, id: "bosses_of_mass_destruction:brimstone_nectar" }
+				type: "item"
+			}]
+			x: -5.75d
+			y: -8.5d
+		}
+		{
+			id: "44ACBB69FB9CD50B"
+			rewards: [{
+				id: "769C33B1857D2375"
+				item: {
+					count: 1
+					id: "bosses_of_mass_destruction:void_lily"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "57F764C4A8423BF8"
+				item: { count: 1, id: "bosses_of_mass_destruction:void_lily" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"237621038535E450"
+				"12CE6F5E4AC39CE2"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "409B0E524D741D30"
+			rewards: [{
+				id: "086948EADC4821A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5F1ED48D278E2286"
+				item: { count: 1, id: "bosses_of_mass_destruction:mob_ward" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7094D85923171947"
+				"237621038535E450"
+			]
+			hide_dependency_lines: true
+			id: "246EFD124E67D07A"
+			rewards: [{
+				id: "2B5A28A835605871"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "47F7F322BC9488D4"
+				item: { count: 1, id: "bosses_of_mass_destruction:levitation_block" }
+				type: "item"
+			}]
+			x: -8.25d
+			y: -2.5d
+		}
+		{
+			id: "12CE6F5E4AC39CE2"
+			rewards: [
+				{
+					count: 4
+					id: "7A541E7FA80286A0"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54BA0BF6D58B97BC"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FD7E1D294F39C1E"
+				item: { count: 1, id: "bosses_of_mass_destruction:obsidian_heart" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"12CE6F5E4AC39CE2"
+				"7094D85923171947"
+			]
+			hide_dependency_lines: true
+			id: "78FB4118430C6DFC"
+			rewards: [{
+				id: "5A79041C19C8E8CB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "62E7BBBB612CE4CF"
+				item: { count: 1, id: "bosses_of_mass_destruction:monolith_block" }
+				type: "item"
+			}]
+			x: -5.75d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"12CE6F5E4AC39CE2"
+				"2FB14AC447EBCE4A"
+			]
+			hide_dependency_lines: true
+			id: "42E9259BB5D9CDBB"
+			rewards: [{
+				id: "3574A67831582B81"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "07667D6A3B98AE67"
+				item: { count: 1, id: "bosses_of_mass_destruction:earthdive_spear" }
+				type: "item"
+			}]
+			x: -3.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36CDE2DC141152A1"]
+			id: "237621038535E450"
+			rewards: [
+				{
+					count: 2
+					id: "454822357AEEBA49"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5AE1401429A2BFA8"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:soul_star"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C3AB4F42696E3F5"
+				item: { count: 1, id: "bosses_of_mass_destruction:ancient_anima" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			id: "7094D85923171947"
+			rewards: [{
+				count: 2
+				id: "1A75F231E30766F4"
+				item: {
+					count: 1
+					id: "minecraft:ancient_debris"
+				}
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "596B1688A358CAA0"
+				item: { count: 1, id: "bosses_of_mass_destruction:blazing_eye" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["44ACBB69FB9CD50B"]
+			id: "2FB14AC447EBCE4A"
+			rewards: [
+				{
+					count: 2
+					id: "0D19AC56678E6A88"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:crystal_fruit"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "70947FA99C5D6459"
+					item: {
+						count: 1
+						id: "minecraft:spore_blossom"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11741B3F8B894C28"
+				item: { count: 1, id: "bosses_of_mass_destruction:void_thorn" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+	]
 }
